@@ -1,79 +1,287 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Babs : " />
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Babs</title>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/thfield/babs">View on GitHub</a>
-
-          <h1 id="project_title">Babs</h1>
-          <h2 id="project_tagline"></h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/thfield/babs/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/thfield/babs/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Babs maintained by <a href="https://github.com/thfield">thfield</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
+<head>
+    <meta charset="utf-8">
+    <title>BABS Data Challenge</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+  <script src="js/d3.v3.js"></script>
+  <script src="js/jquery-1.11.0.js"></script>
+  <script src="js/colors.js"></script>
+  <header>
+    <h1>Bay Area Bike Share Data Challenge</h1>
+    <a href="explore.html">Explore</a> <a href="main.html">Home</a>
+  </header>
+  
+  <div class="wrapper">
     
+    <h2 class="analysis">What is the Bay Area Bike Share?</h2>
+    <p class="analysis">The Bay Area Bike Share system allows users to rent bicycles for short journeys between stations throughout the city.  Users can be annual members or short term (1 or 3 days).  The system is completely automated for users. </p>
+    <p class="analysis">There are <strong>69</strong> stations across <strong>5</strong> cities in the Bay Area Bike Share system, with an average of <strong>17</strong> docks per station.</p>
+    <div id="pies" class="chart"></div>
+    <p class="analysis">About <strong>50%</strong> of the stations and docks are located in San Francisco, but it makes up <strong>90%</strong> of the system use.</p>
+    <p class="analysis">The data we analyze here came from rides between August 29, 2013 and February 29, 2014.</p>
+    
+    <p class="fact">In those 185 days there were <strong>144,015 rides</strong>, averaging about <strong>20 minutes</strong> per trip.</p>
+    <p class="fact">Total riding time: <br/><strong>49,241.5 hours</strong>, or <strong>5 years, 32 weeks, 1 day, 12 hours, 27 minutes, and 4 seconds</strong>.
+</p>
+    
+    <hr class="clear"/>
+    
+    <h2 class="analysis">How much is the Bike Share System Used?</h2>
+    <input type="checkbox" id="weekendcheck">Highlight Weekends</input>
+    <div id="row2" class="chart"></div>
+    <p class="analysis">This chart makes it pretty clear that ridership drops on weekends. Check the box to highlight Saturdays and Sundays.</p>
+    <p class="fact"><strong>917 rides</strong> are made on average each weekday</p> 
+    <p class="fact"><strong>442 rides</strong> are made on average each weekend</p> 
+  
+  <table class="fact tabCenter">
+    <thead> <th>Busiest day</th> <th>Calmest day</th> </thead>
+    <tbody>
+      <tr> <td>2013-09-25</td>   <td>2014-02-09</td> </tr>
+      <tr> <td>1,264 rides</td> <td>81 rides</td> </tr>
+    </tbody>
+  </table>
+  
+  <hr class="clear"/>
+  
+    <h2 class="analysis">Who uses Bay Area Bike Share?</h2>
+    <div id="row3" class="chart ILL"></div>
+    <p class="analysis">Almost <strong>80%</strong> of riders have an annual subscription.  The remaining <strong>20%</strong> of riders were customers who purchased a 24-hour or 3-day pass.</p> 
+  
+    <hr class="clear"/>
+  
+    <h2 class="analysis">When is Bike Share used?</h2>
+    <p class="analysis clear">We saw already that users are likely to be annual subscribers, and system use drops off on the weekends.  Let's group the rides by weekday and see how subscribers use compares to customers:</p>
+  <div id="weekday" class="chart ILR"></div>
+  <p class="analysis">Weekday riders are overwhelmingly subscribers, and ridership among subscribers falls so low on weekends that customer riders just manage to overtake them.</p>
+    
+    <p class="analysis clear">And now we'll group rides by time of day:</p>
+    <div id="hourly" class="chart ILL"></div>
+    
+    <p class="analysis">Among subscribers we see spikes in use at 8am and 5pm with another small bump at 12 noon.  Subscribers ride a bike to get to work, to go to lunch, and to head home.  </p>
+      <p class="analysis">Customers hourly usage seems to fall along a bell-shaped distribution peaking at two in the afternoon.  There doesn't seem to be a lunchtime rise among customer use.  Customers ride around throughout the daytime at their leisure.</p>
+    <p class="analysis">From these usage behaviors, it would be fair to characterize the two groups of subscribers and customers as <strong>commuters</strong> and <strong>tourists</strong>, respectively.</p>
+  
+  
+    
+    <p class="analysis">The Bike Share system is intended to be used for short rides: trips under a half hour do not incur any additional charges.  Do riders use the system in the intended way?</p>
+    <div id="duration" class="chart ILR"></div>
+    <p class="analysis">Yes they do.  The chart on the right shows that the most common ride length is <strong>5 to 10 minutes</strong>.  Subscribers are clearly savvy to the price structuring.  For the most part, customers are as well.  Their trips last a little longer on average, but mostly less than 30 minutes.  There's a bump in rides that last longer than an hour, let's examine those a little closer: </p>
+    <div id="durationH" class="chart"></div>
+  <p class="aside ILR">By the current pricing structure, a customer purchasing a 24 hour pass and taking a ride that lasts 2 hours and 59 minutes would pay in total $41.  A ride of 2 hours and 29 minutes would only be $34. There are several bike rental companies in San Francisco which offer 3-hour rentals for around $32.  Customers taking trips less than three hours likely did not understand the bike share system and incurred unwanted overtime fees, or they decided the convenience of the automated system was worth the premium paid over other rental offerings.</p>
+    <p class="analysis">Rides lasting longer than an hour are most commonly 1 to 2 hours long, and almost always taken by customers.  This could be due to confusion over the nature of the "24-hour pass" or one of many other factors including theft, forgetfulness, or getting lost.  </p>
+      
+  <hr class="clear"/>
+  <h2 class="analysis">Where do people ride Bike Share?</h2>
+  <p class="analysis">We saw earlier that 90% of Bike Share rides took place in San Francisco.  Let's examine the average numbers for each city on a day-to-day basis: </p>
+  
+  <table id="avgday" class="tabCenter"><caption>Average Rides per Day</caption>
+    <thead> <th></th> <th>System Wide</th> <th>San Jose</th> <th>Redwood City</th> <th>Mountain View</th> <th>Palo Alto</th> <th>San Francisco</th></thead>
+    <tbody>
+      <tr> <td>Total</td>      <td>778</td> <td>48</td> <td>4</td> <td>15</td> <td>9</td> <td>702</td></tr>
+      <tr> <td>Subscriber</td> <td>614</td> <td>39</td> <td>3</td> <td>12</td> <td>5</td> <td>555</td></tr>
+      <tr> <td>Customer</td>   <td>164</td> <td> 9</td> <td>1</td> <td> 3</td> <td>4</td> <td>147</td></tr>
+    </tbody>
+  </table>
+  
+  <p class="analysis">Hmm. Redwood City and Palo Alto don't see much daily use, but not much interesting here.  <span class="strike">Let's look at a chart.</span>  Let's look at an interactive chart.</p>
+  <p class="analysis">Here we see total daily rides for each category of user plotted across the entire timespan, similar to the chart at the top of the page. Use the radio buttons on top to examine different cities and the checkboxes below to highlight days with some factor that might have influenced riders.</p>
+  
+   <div id="cityRadio">
+        <input type="radio" name="city" value="all" checked="true">All</input>
+        <input type="radio" name="city" value="sj">San Jose</input>
+        <input type="radio" name="city" value="rc">Redwood City</input>
+        <input type="radio" name="city" value="mv">Mountain View</input>
+        <input type="radio" name="city" value="pa">Palo Alto</input>
+        <input type="radio" name="city" value="sf">San Francisco</input>
+      </div>
+      <div id="focuschart"></div>
+      <ul class="ILL">
+        <li><input type="checkbox" id="avgCB">Show Average Rides</input></li>
+        <li><span id="reset" >Reset</span></li>
+      </ul>
+      <ul class="ILL">
+        <li><input type="checkbox" id="weekendCB">Weekends</input></li>
+        <li><input type="checkbox" id="holidayCB">Holidays</input></li>
+      </ul>
+      <ul class="ILL">
+        <li><input type="checkbox" id="rainCB">Rain</input></li>
+        <li><input type="checkbox" id="tempCB">Temp</input></li>
+      </ul>
+      <ul class="ILL">
+        <li><input type="checkbox" id="49ersCB">49ers Game</input></li>
+        <li><input type="checkbox" id="giantsCB">Giants Game</input></li>
+        <li><input type="checkbox" id="sharksCB">Sharks Game</input></li>
+      </ul>
+      <ul class="ILL">
+        <li><input type="checkbox" id="americasCB">Americas Cup</input></li>
+        <li><input type="checkbox" id="bartCB">BART Strike</input></li>
+        <li><input type="checkbox" id="govCB">Government Shutdown</input></li>
+      </ul>
+  
+  <span class="aside">Explore these factors closer on <a href="explore.html">the next page &rarr;</a></span>
 
-  </body>
+<p class="analysis">If our generalization of users as commuters and tourists were true, we would predict use among subscribers to drop off when commuters don't go to work and increase when tourists are in town.  With the overlays we can see this exact corelation. Total rides by subscribers decreased on weekends, over Thanksgiving, and between Christmas and New Years. Rides by customers increased noticably on weekends, holidays, and during the America's Cup finals.</p>
+<p class="analysis">Rain seems to be a large deterrent to bike use; on rainy days system use falls almost as predictably as on weekends or holidays.  Temperature, however does not seem to have a major influence on riders.  Bay area temperatures being notoriously moderate, the lack of corelation is not surprising.  </p>
+<p class="analysis">We can't draw any conclusions about the influence of home games by the 49ers, Giants, or Sharks.  The Giants games would seem to be an ideal use of the Bike Share, but during this period the only Giants home games overlapped with Americas Cup races.</p>
+<p class="analysis">Interestingly, both the federal government shutdown of October and the two BART worker strikes of October and December did not seem to have a major influence.  Rider numbers during the strikes remained similar to numbers from the weeks before and after the strikes.  This poses an interesting question,  do BART commuters use the Bike Share System?  To begin looking for an answer, let's look at the numbers for rides to and from each station.</p>
+  
+<table class="tabRight ILL">
+    <caption>Most Popular Starting Stations</caption>
+    <thead> 
+      <th>Station</th> <th>Rides</th> 
+    </thead>
+    <tbody>
+      <tr> <td>San Francisco Caltrain (Townsend at 4th)</td> <td>9,838</td> </tr>
+      <tr> <td>Harry Bridges Plaza (Ferry Building)</td> <td>7,343</td> </tr>
+      <tr> <td>Embarcadero at Sansome</td> <td>6,545</td> </tr>
+      <tr> <td>Market at Sansome</td> <td>5,922</td> </tr>
+      <tr> <td>Temp. Transbay Term. (Howard at Beale)</td> <td>5,113</td> </tr>
+      <tr> <td>Market at 4th</td> <td>5,030</td> </tr>
+      <tr> <td>2nd at Townsend</td> <td>4,987</td> </tr>
+      <tr> <td>San Francisco Caltrain 2 (330 Townsend)</td> <td>4,976</td> </tr>
+      <tr> <td>Steuart at Market</td> <td>4,913</td> </tr>
+      <tr> <td>Townsend at 7th</td> <td>4,493</td> </tr>
+    </tbody>
+  </table>
+
+  <table class="tabRight ILR">
+    <caption>Most Popular Destinations</caption>
+    <thead> 
+      <th>Station</th> <th>Rides</th> 
+    </thead>
+    <tbody>
+      <tr> <td>San Francisco Caltrain (Townsend at 4th)</td> <td>11,637</td> </tr>
+      <tr> <td>Embarcadero at Sansome</td> <td>7,590</td> </tr>
+      <tr> <td>Harry Bridges Plaza (Ferry Building)</td> <td>7,475</td> </tr>
+      <tr> <td>Market at Sansome</td> <td>6,238</td> </tr>
+      <tr> <td>2nd at Townsend</td> <td>5,655</td> </tr>
+      <tr> <td>San Francisco Caltrain 2 (330 Townsend)</td> <td>5,112</td> </tr>
+      <tr> <td>Market at 4th</td> <td>5,109</td> </tr>
+      <tr> <td>Steuart at Market</td> <td>5,080</td> </tr>
+      <tr> <td>Townsend at 7th</td> <td>5,073</td> </tr>
+      <tr> <td>2nd at South Park</td> <td>4,431</td> </tr>
+    </tbody>
+  </table>
+<span class="clear"></span>
+
+<table class="ILR tabCenter">
+      <caption>San Francisco Caltrain <br/>(Townsend at 4th)</caption>
+      <thead> 
+        <th>Most popular starting point</th> <th>Most popular destination</th> 
+      </thead>
+      <tbody>
+        <tr> <td>9,838 rides</td> <td>11,637 rides</td> </tr>
+      </tbody>
+  </table>
+
+  <p class="analysis">Here we see the top 10 stations in the entire system to start or end a ride.  Interestingly, the stations near Caltrain and the Ferry building top the list.  Both Harry Bridges Plaza and Steuart at Market are close to the Ferry Building.  San Francisco Caltrain 1 and 2 obviously serve the Caltrain line.  The station at Embarcadero and Sansome is next to Pier 27, where the America's Cup Pavillion was located.</p>
+
+
+
+<p class="analysis">The stations on the top ten list within walking distance of a BART stop are Market at Sansome, Market at 4th, and Steuart at Market.  Keep in mind that all these stops are also within close proximity to many points of interest in downtown San Francisco. </p>
+
+<p class="analysis">Of course, the rest of the stations serving BART commuters could all be just outside the top ten.  Let's take a look at the list of rides for all stations. BART stations are identified with blue text, Caltrain stations with red text.</p>  
+    
+<p>Sort by:</p>
+    <div id="sort" class="center">
+        <input type="radio" name="stationSort" value="start" checked="true">Starting station</input>
+        <input type="radio" name="stationSort" value="end">Ending station</input>
+    </div>
+
+  <div id="hbar"></div>
+  <p class="analysis">While the BART stations are indeed all among the most busy stations in the bike share system, their numbers don't set them apart from any other station within San Francisco.  Bike Share Riders docking at these stations are not necessarially transferring to or from BART. These stations are centrally located to a number of attractions in downtown San Francisco, so we would expect them to be highly trafficked.  If there was a large contingency of BART commuters who used the Bike Share, we would expect to see rides to and from BART stations in numbers significantly beyond other destinations. With what we've seen here, it seems safe to conclude that BART commuters are a largely untapped user base.</p>
+      
+      <p class="analysis">Is there any more evidence to back up this assumption? Let's take a look at the ride numbers for stations serving different forms of commuting to and from San Francisco:</p>
+
+<table id="commuter" class="tabCenter"><caption>Total rides at stations serving:</caption>
+    <thead> <th></th> <th>BART</th> <th>Caltrain</th> <th>Ferry Building</th> <th>Transbay Terminal</th></thead>
+    <tbody>
+      <tr> <td>Starting</td><td>20,919</td> <td>14,814</td> <td>12,256</td> <td>5,113</td></tr>
+      <tr> <td>Ending</td>  <td>21,325</td> <td>16,749</td> <td>12,555</td> <td>4,356</td></tr>
+    </tbody>
+  </table>
+
+<p class="analysis">These numbers are somewhat misleading since there are four stations within walking distance of a BART station, but only two nearby the Caltrain and Ferry building.  Instead, let's look at average rides to/from these stations: </p>
+
+<table id="commuteravg" class="tabCenter"><caption>Average rides at stations serving:</caption>
+    <thead> <th></th> <th>BART</th> <th>Caltrain</th> <th>Ferry Building</th> <th>Transbay Terminal</th> <th>All SF</th></thead>
+    <tbody>
+      <tr> <td>Starting</td><td>4,305</td> <td>7,407</td> <td>6,128</td> <td>5,113</td> <td>3,710</td></tr>
+      <tr> <td>Ending</td>  <td>4,401</td> <td>8,374</td> <td>6,278</td> <td>4,356</td> <td>3,710</td></tr>
+    </tbody>
+  </table>
+
+<p class="analysis">Of course, we would be making a massive mistake if we were to assume that all rides to or from these stations started or continued with trips on the related commuter system.  The Ferry Building is a major tourism destination, every BART stop is within walking distance to numerous restaurants, museums, business, MUNI rail and bus stops. The Caltrain station, on the other hand, is only within walking distance of a handfull of other points of interest.  When we compare the numbers for the Caltrain station to the average for all stations in San Francisco, it becomes clear that Caltrain commuters are making great use of the bike share system.</p>
+
+
+ <hr/>
+  
+<p class="analysis">Each trip withing Bike Share is recorded by starting station and ending station, so in addition to examining the popularity of stations, we can examine the popularity of individual routes.  In the chart below, starting stations are listed in rows and the ending stations in columns.  The total number of rides from least to most along each route is indicated by the cell color, lightest to darkest. </p>
+
+      <div id="tooltip" class="hidden">
+        <p><span id="value"></p>
+      </div>
+      
+      <div id="heatRadio">
+        <input type="radio" name="heat" value="all" checked="true">All</input>
+        <input type="radio" name="heat" value="sj">San Jose</input>
+        <input type="radio" name="heat" value="rc">Redwood City</input>
+        <input type="radio" name="heat" value="mv">Mountain View</input>
+        <input type="radio" name="heat" value="pa">Palo Alto</input>
+        <input type="radio" name="heat" value="mvpa">MV/PA</input>
+        <input type="radio" name="heat" value="sf">San Francisco</input>
+      </div>
+
+      <div id="heat"></div>
+
+  <p class="analysis">On the heatmap diagram of systemwide rides we see that activity tends to be grouped into squares. These are trips that took place within city boundaries, and we notice that not many riders go beyond their starting city.  An exception to this are trips between Mountain View and Palo Alto, between which 191 rides went from one city to the other. </p>
+
+  <p class="analysis">Looking at the station heatmap for San Francicso, we note that riders leaving from the most popular station, SF Caltrain, disperse throughout the system.  Riders heading to SF Caltrain similarly tend to come from throughout the system.  </p>
+
+<p class="aside ILL">Two popular routes which seem to make up a round trip are Townsend at 7th to SF Caltrain 2 and vice-versa.  Near to Townsend at 7th is an Expo center and at handfull of influential tech companies including Adobe, Heroku, Citrix, Advent, and Zynga.  This could reflect a corporate membership program popular among commuting employees, a conference well-attended by peninsula-dwellers, or more simply, a dearth of other forms of transportation to the area. </p>
+
+<p class="aside ILL"> The most ridden route, Harry Bridges Plaza (Ferry Building) to Embarcadero at Sansome, does not have a return route with as great numbers, indicating that riders tended to ride to Embarcadero at Sansome and continue their journey elsewhere rather than return to the Ferry Building.  Embarcadero at Sansome is the northernmost station along the Embarcadero, closest to tourism-heavy Pier 39 and Fisherman's Wharf.  The bike path heading north along the Embarcadero is also much more bicycle-friendly than the southern route. </p>
+ 
+<table class="tabRight center ">
+   
+    <caption>Most Traveled Routes</caption>
+    <thead> 
+      <th>From</th> <th>To</th> <th>Rides</th>
+    </thead>
+    <tbody>
+      <tr>  <td>Harry Bridges Plaza (Ferry Building)</td> <td>Embarcadero at Sansome</td>    <td>1,330</td></tr>
+      <tr>  <td>Townsend at 7th</td> <td>San Francisco Caltrain (Townsend at 4th)</td>    <td>1,322</td></tr>
+      <tr>  <td>San Francisco Caltrain 2 (330 Townsend)</td> <td>Townsend at 7th</td>    <td>1,116</td></tr>
+      <tr>  <td>Market at Sansome</td> <td>2nd at South Park</td>     <td>866</td> </tr>
+      <tr>  <td>Embarcadero at Sansome</td> <td>Steuart at Market</td>    <td>811</td> </tr>
+      <tr>  <td>2nd at South Park</td> <td>Market at Sansome</td>     <td>798</td> </tr>
+      <tr>  <td>San Francisco Caltrain (Townsend at 4th)</td> <td>Harry Bridges Plaza (Ferry Building)</td>    <td>782</td> </tr>
+      <tr>  <td>2nd at Townsend</td> <td>Harry Bridges Plaza (Ferry Building)</td>    <td>757</td> </tr>
+      <tr>  <td>Steuart at Market</td> <td>Embarcadero at Sansome</td>    <td>717</td> </tr>
+      <tr>  <td>Harry Bridges Plaza (Ferry Building)</td> <td>2nd at Townsend</td>     <td>710</td> </tr>
+    </tbody>
+  </table>
+
+    <hr />
+      <h2>In Conclusion</h2>
+      <p class="analysis">We saw here that Bike Share is used mostly in San Francisco, by commuters, when it isn't raining, for rides under 15 minutes.  It looks like BART commuters don't use the system to the extent that Caltrain commuters do. On weekends and holidays, visitors to San Francisco use the system to ride around town.</p>
+    <p class="analysis">One dimension not explored in this analysis was populariaty of each station among subscribers vs customers.  With what we saw of the behavior of customers vs subscribers we could identify stations more popular with tourists or with commuters and potentially identify areas of the city with demand for future stations.</p>
+    <p class="analysis">One recommendation that can be made is for station growth into SOMA.  Users are already shown to be commuters heading to work, and SOMA is one area of San Francisco with a high density of businesses, close proximity to the existing stations, and currently lacking any Bike Share stations.</p>
+    <p class="analysis">The Mission is another neighborhood which may hold an existing demand for Bike Share, especially if any expansion is coupled with BART advertising and stations near the 16th and 24th Street BART stations.</p>
+
+  
+  </div>
+  
+  <footer>Made with <a href="http://www.d3js.org">D3</a>.  Data from the <a href="http://bayareabikeshare.com/datachallenge">Bay Area Bike Share Data Challenge</a>.</footer>
+  
+  <script src="js/main.js"></script>
+  <script src="js/indepth.js"></script>
+</body>
+
 </html>
+
+

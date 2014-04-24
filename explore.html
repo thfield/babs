@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>BABS Data Challenge</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+  <script src="js/d3.v3.js"></script>
+  <script src="js/jquery-1.11.0.js"></script>
+  <script src="js/colors.js"></script>
+  <header>
+    <h1>Bay Area Bike Share Data Challenge</h1>
+    <a href="explore.html">Explore</a> <a href="main.html">Home</a>
+  </header>
+  <div class="wrapper">
+    <div id="row1">
+      <div id="cityRadio">
+        <input type="radio" name="city" value="all" checked="true">All</input>
+        <input type="radio" name="city" value="sj">San Jose</input>
+        <input type="radio" name="city" value="rc">Redwood City</input>
+        <input type="radio" name="city" value="mv">Mountain View</input>
+        <input type="radio" name="city" value="pa">Palo Alto</input>
+        <input type="radio" name="city" value="sf">San Francisco</input>
+      </div>
+      <div id="focuschart"></div>
+      <ul class="ILL">
+        <li><input type="checkbox" id="avgCB">Show Average Rides</input></li>
+        <li><span id="reset">Reset</span></li>
+      </ul>
+      <ul class="ILL">
+        <li><input type="checkbox" id="weekendCB">Weekends</input></li>
+        <li><input type="checkbox" id="holidayCB">Holidays</input></li>
+      </ul>
+      <ul class="ILL">
+        <li><input type="checkbox" id="rainCB">Rain</input></li>
+        <li><input type="checkbox" id="tempCB">Temp</input></li>
+      </ul>
+      <ul class="ILL">
+        <li><input type="checkbox" id="49ersCB">49ers Game</input></li>
+        <li><input type="checkbox" id="giantsCB">Giants Game</input></li>
+        <li><input type="checkbox" id="sharksCB">Sharks Game</input></li>
+      </ul>
+      <ul class="ILL">
+        <li><input type="checkbox" id="americasCB">Americas Cup</input></li>
+        <li><input type="checkbox" id="bartCB">BART Strike</input></li>
+        <li><input type="checkbox" id="govCB">Government Shutdown</input></li>
+      </ul>
+      
+    </div>
+<hr />
+    
+
+  </div>  
+  <footer>Made with <a href="http://www.d3js.org">D3</a>.  Data from the <a href="http://bayareabikeshare.com/datachallenge">Bay Area Bike Share Data Challenge</a>.</footer>
+  
+  
+  
+  <script src="js/explore.js"></script>
+
+
+</body>
+
+</html>
+
+
