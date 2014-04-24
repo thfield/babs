@@ -1,0 +1,294 @@
+@import url('http://fonts.googleapis.com/css?family=Source+Code+Pro|Roboto:100,400,700|Old+Standard+TT:400,700');
+
+
+/* ----- html ----- */
+body {
+  background-color: #ddd;
+}
+.hidden {
+  display: none;
+}
+.clear:before,
+.clear:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+    clear: both;
+}
+/*
+.clear:after {
+    clear: both;
+}
+*/
+.center {
+  margin: auto;
+}
+.strike { 
+  text-decoration: line-through;
+}
+hr {
+  width: 75%;
+  margin: 40px auto;
+}
+header {
+  height: 100px;
+  background-color: #0070cd;
+  padding: 16px 100px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+footer {
+  font-size: 10px; 
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+h1 {
+  font-size: 2rem;
+  color: #82c7bc;
+  margin-bottom: 0px;
+}
+header a {
+  font-size: 1.5rem;
+  float: right;
+  text-decoration: none;
+  margin: 0rem 2rem;
+  padding: 5px;
+  color: #fff;
+}
+header a:hover {
+  background-color: #fff;
+  color: #0070cd;
+}
+input[type=radio] {
+  margin-left: 0.5rem;
+}
+.wrapper {
+  width: 800px;
+  padding: 24px 50px;
+  margin: 0 auto 10px auto;
+  -webkit-box-shadow: 0 20px 20px 4px #999999;
+  box-shadow: 0 20px 20px 4px #999999;
+  background-color: #fff;
+  font-size: 12pt; 
+  font-family: 'Old Standard TT', serif;
+}
+.ILR {
+  display: inline-block;
+  float: right;
+}
+.ILL {
+  display: inline-block;
+  float: left;
+}
+.fact {
+  /*font-family: 'Raleway', sans-serif;*/
+  font-size: 1.5rem;
+  display: inline-block;
+  margin-left: 225px;
+  width: 350px;
+  /*padding: 30px;
+  margin-left: 192px;
+  border: solid #666 3px;
+  border-radius: 10px;
+  background-color: #82c7bc;
+  color: #0070cd;*/
+  text-align: center;
+}
+.analysis {
+  
+}
+.aside {
+  font-size: 10pt;
+  border: dashed #666 1px;
+  padding: 0.5rem;
+  margin: 1rem;
+  border-radius: 5px;
+  width: 350px;
+}
+.chart {
+  margin: 0 1rem;
+}
+ul {
+  list-style-type: none;
+}
+.tabCenter {
+  text-align: center;
+}
+.tabRight  td:last-of-type {
+  text-align: right;
+}
+table {
+  font-size: 0.9rem;
+  margin-top: 20px;
+}
+caption {
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-bottom: 1px solid black;
+}
+td, th {
+  padding: 0 0.7rem ;
+}
+.highlight>rect {
+  stroke: #ff9c27;
+}
+/* -- i know using ids in css is bad form, but i need to align things quickly -- */
+#pies {
+  margin-left: 110px;
+}
+#weekendcheck {
+  margin-left: 500px;
+}
+#duration {
+  margin-bottom: 10px;
+}
+#durationH {
+  margin-left: 75px;
+}
+#reset {
+  text-decoration: underline;
+  cursor: pointer;
+  color: blue;
+}
+#cityRadio {
+ margin-left: 100px; 
+}
+#hbar {
+ margin-left: 100px; 
+}
+#avgday {
+  margin-left: 60px; 
+}
+#commuter {
+ margin-left: 160px; 
+}
+#commuteravg {
+ margin-left: 129px; 
+}
+/* ----- SVG ----- */
+.slice > path{
+	stroke-width:1px;
+    stroke: #fff;
+} 
+.slice:hover > path{
+    stroke: #ff9c27 ;
+    stroke-width: 2px;
+}
+.bar:hover {
+  stroke: #ff9c27 ;
+}
+.totalbar:hover {
+  stroke: #ff9c27 ;
+}
+  
+text {
+  fill: black;
+  
+}    
+.title {
+  font-size: 14pt;
+}
+svg {
+  font: 10px sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+path {
+  fill: none;
+}
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+path.weekend {
+  fill: #ccc;
+  /*opacity: 0.6;*/
+}
+path.weekendline {
+  fill: #ccc;
+}
+path.hour {
+  stroke-width: 2px;
+}
+.area {
+  stroke-width: 2px;
+  fill-opacity: 0.2;
+  clip-path: url(#clip);
+}
+.avgline {
+  fill: none;
+  stroke-width: 2px;
+  clip-path: url(#clip);
+  stroke-dasharray: 2,2;    
+}    
+.tempLine {
+  fill: none;
+  stroke-width: 2px;
+  clip-path: url(#clip);
+}  
+.bars {
+  fill-opacity: 0.5;
+  clip-path: url(#clip);
+}
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+.brush .extent {
+  stroke: #fff;
+  fill-opacity: .125;
+  shape-rendering: crispEdges;
+}
+rect.bordered {
+  stroke: #E6E6E6;
+  stroke-width: 1px;   
+}
+text.mono {
+  font-size: 6pt;
+  font-family: 'Source Code Pro', monospace;
+  fill: #000;
+}
+rect.highlight {
+  stroke: #ff9c27;
+  stroke-width 0.5px;
+}
+text.text-hover {
+  fill: #ff9c27; 
+}
+.bart>text {
+  fill: #0072b9;
+}
+.caltrain>text {
+  fill: #e63737; 
+}
+
+#tooltip {
+  position: absolute;
+  width: 150px;
+  height: auto;
+  padding: 5px;
+  background-color: white;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+  pointer-events: none;
+}
+#tooltip.hidden {
+  display: none;
+}
+#tooltip p {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+}
+.hover-hide >text.startCount, .hover-hide>text.endCount{
+  display: none;
+}

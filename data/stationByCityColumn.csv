@@ -1,0 +1,70 @@
+station,city,name,docks,starting,ending,class,start rank,end rank
+2,SJ,San Jose Diridon Caltrain Station,27,1972,1820,caltrain,32,32
+4,SJ,Santa Clara at Almaden,11,855,778,,37,38
+7,SJ,Paseo de San Antonio,15,745,720,,38,41
+10,SJ,San Jose City Hall,15,740,510,,39,46
+6,SJ,San Pedro Square,15,715,807,,40,37
+8,SJ,San Salvador at 1st,15,597,607,,42,42
+11,SJ,MLK Library,19,528,748,,43,39
+9,SJ,Japantown,15,496,590,,44,43
+16,SJ,SJSU - San Salvador at 9th,15,489,534,,45,45
+12,SJ,SJSU 4th at San Carlos,19,389,434,,48,47
+13,SJ,St James Park,15,366,337,,50,50
+3,SJ,San Jose Civic Center,15,346,374,,52,48
+14,SJ,Arena Green / SAP Center,19,339,324,,53,52
+5,SJ,Adobe on Almaden,19,335,331,,54,51
+80,SJ,San Jose Government Center,15,23,23,,68,68
+70,SF,San Francisco Caltrain (Townsend at 4th),19,9838,11637,caltrain,1,1
+50,SF,Harry Bridges Plaza (Ferry Building),23,7343,7475,ferry,2,3
+60,SF,Embarcadero at Sansome,15,6545,7590,,3,2
+77,SF,Market at Sansome,27,5922,6238,bart,4,4
+55,SF,Temporary Transbay Terminal (Howard at Beale),23,5113,4356,,5,11
+76,SF,Market at 4th,19,5030,5109,bart,6,7
+61,SF,2nd at Townsend,27,4987,5655,,7,5
+69,SF,San Francisco Caltrain 2 (330 Townsend),23,4976,5112,caltrain,8,6
+74,SF,Steuart at Market,23,4913,5080,ferry,9,8
+65,SF,Townsend at 7th,15,4493,5073,,10,9
+64,SF,2nd at South Park,15,4458,4431,,11,10
+73,SF,Grant Avenue at Columbus Avenue,15,4004,2648,,12,23
+53,SF,Powell Street BART,19,3836,4211,bart,13,12
+62,SF,2nd at Folsom,19,3776,2513,,14,26
+66,SF,South Van Ness at Market,19,3521,3121,,15,17
+67,SF,Market at 10th,27,3511,3388,,16,14
+54,SF,Embarcadero at Bryant,15,3497,3088,,17,19
+49,SF,Spear at Folsom,19,3423,3554,,18,13
+63,SF,Howard at 2nd,19,3263,3211,,19,15
+72,SF,Civic Center BART (7th at Market),23,3074,3187,bart,20,16
+56,SF,Beale at Market,19,3057,2580,bart,21,25
+51,SF,Embarcadero at Folsom,19,2931,2865,,22,21
+75,SF,Mechanics Plaza (Market at Battery),19,2868,2713,,23,22
+45,SF,Commercial at Montgomery,15,2834,2450,,24,28
+71,SF,Powell at Post (Union Square),19,2824,2267,,25,30
+48,SF,Embarcadero at Vallejo,15,2785,3005,,26,20
+57,SF,5th at Howard,15,2635,3089,,27,18
+47,SF,Post at Kearney,19,2503,2310,,28,29
+68,SF,Yerba Buena Center of the Arts (3rd @ Howard),19,2487,2594,,29,24
+41,SF,Clay at Battery,15,2419,2264,,30,31
+42,SF,Davis at Jackson,15,2300,2462,,31,27
+59,SF,Golden Gate at Polk,23,1757,1532,,33,34
+46,SF,Washington at Kearney,15,1472,1772,,34,33
+58,SF,San Francisco City Hall,19,1257,1065,,35,35
+82,SF,Broadway St at Battery St,15,201,205,,59,60
+22,RC,Redwood City Caltrain Station,25,378,228,caltrain,49,57
+26,RC,Redwood City Medical Center,15,123,178,,62,61
+23,RC,San Mateo County Center,15,101,106,,64,64
+21,RC,Franklin at Maple,15,99,93,,65,65
+25,RC,Broadway at Main,15,45,56,,66,67
+24,RC,Redwood City Public Library,15,44,117,,67,63
+83,RC,Mezes Park,15,3,5,,69,69
+35,PA,University and Emerson,11,434,541,,46,44
+34,PA,Palo Alto Caltrain Station,23,431,373,caltrain,47,49
+37,PA,Cowper at University,11,355,283,,51,54
+36,PA,California Ave Caltrain Station,15,297,286,caltrain,55,53
+38,PA,Park at Olive,15,189,209,,60,59
+28,MV,Mountain View Caltrain Station,23,1154,1018,caltrain,36,36
+27,MV,Mountain View City Hall,15,630,742,,41,40
+33,MV,Rengstorff Avenue / California Street,15,248,274,,56,55
+29,MV,San Antonio Caltrain Station,23,238,272,caltrain,57,56
+30,MV,Evelyn Park and Ride,15,218,225,,58,58
+32,MV,Castro Street and El Camino Real,11,132,129,,61,62
+31,MV,San Antonio Shopping Center,15,108,93,,63,66

@@ -1,0 +1,70 @@
+name,start,end,transport,city
+San Francisco Caltrain (Townsend at 4th),9838,11637,caltrain,SF
+Harry Bridges Plaza (Ferry Building),7343,7475,ferry,SF
+Embarcadero at Sansome,6545,7590,,SF
+Market at Sansome,5922,6238,bart,SF
+Temporary Transbay Terminal (Howard at Beale),5113,4356,,SF
+Market at 4th,5030,5109,bart,SF
+2nd at Townsend,4987,5655,,SF
+San Francisco Caltrain 2 (330 Townsend),4976,5112,caltrain,SF
+Steuart at Market,4913,5080,ferry bart,SF
+Townsend at 7th,4493,5073,,SF
+2nd at South Park,4458,4431,,SF
+Grant Avenue at Columbus Avenue,4004,2648,,SF
+Powell Street BART,3836,4211,bart,SF
+2nd at Folsom,3776,2513,,SF
+South Van Ness at Market,3521,3121,,SF
+Market at 10th,3511,3388,,SF
+Embarcadero at Bryant,3497,3088,,SF
+Spear at Folsom,3423,3554,,SF
+Howard at 2nd,3263,3211,,SF
+Civic Center BART (7th at Market),3074,3187,bart,SF
+Beale at Market,3057,2580,bart,SF
+Embarcadero at Folsom,2931,2865,,SF
+Mechanics Plaza (Market at Battery),2868,2713,,SF
+Commercial at Montgomery,2834,2450,,SF
+Powell at Post (Union Square),2824,2267,,SF
+Embarcadero at Vallejo,2785,3005,,SF
+5th at Howard,2635,3089,,SF
+Post at Kearney,2503,2310,,SF
+Yerba Buena Center of the Arts (3rd @ Howard),2487,2594,,SF
+Clay at Battery,2419,2264,,SF
+Davis at Jackson,2300,2462,,SF
+San Jose Diridon Caltrain Station,1972,1820,caltrain,SJ
+Golden Gate at Polk,1757,1532,,SF
+Washington at Kearney,1472,1772,,SF
+San Francisco City Hall,1257,1065,,SF
+Mountain View Caltrain Station,1154,1018,caltrain,MV
+Santa Clara at Almaden,855,778,,SJ
+Paseo de San Antonio,745,720,,SJ
+San Jose City Hall,740,510,,SJ
+San Pedro Square,715,807,,SJ
+Mountain View City Hall,630,742,,MV
+San Salvador at 1st,597,607,,SJ
+MLK Library,528,748,,SJ
+Japantown,496,590,,SJ
+SJSU - San Salvador at 9th,489,534,,SJ
+University and Emerson,434,541,,PA
+Palo Alto Caltrain Station,431,373,caltrain,PA
+SJSU 4th at San Carlos,389,434,,SJ
+Redwood City Caltrain Station,378,228,caltrain,RC
+St James Park,366,337,,SJ
+Cowper at University,355,283,,PA
+San Jose Civic Center,346,374,,SJ
+Arena Green / SAP Center,339,324,,SJ
+Adobe on Almaden,335,331,,SJ
+California Ave Caltrain Station,297,286,caltrain,PA
+Rengstorff Avenue / California Street,248,274,,MV
+San Antonio Caltrain Station,238,272,caltrain,MV
+Evelyn Park and Ride,218,225,,MV
+Broadway St at Battery St,201,205,,SF
+Park at Olive,189,209,,PA
+Castro Street and El Camino Real,132,129,,MV
+Redwood City Medical Center,123,178,,RC
+San Antonio Shopping Center,108,93,,MV
+San Mateo County Center,101,106,,RC
+Franklin at Maple,99,93,,RC
+Broadway at Main,45,56,,RC
+Redwood City Public Library,44,117,,RC
+San Jose Government Center,23,23,,SJ
+Mezes Park,3,5,,RC
