@@ -13,12 +13,7 @@ body {
     content: " "; /* 1 */
     display: table; /* 2 */
     clear: both;
-}
-/*
-.clear:after {
-    clear: both;
-}
-*/
+} 
 .center {
   margin: auto;
 }
@@ -165,6 +160,9 @@ td, th {
 #commuteravg {
  margin-left: 129px; 
 }
+#hbar {
+ cursor: default; 
+}
 /* ----- SVG ----- */
 .slice > path{
 	stroke-width:1px;
@@ -286,8 +284,7 @@ text.text-hover {
 #tooltip p {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  font-size: 12px;
-  line-height: 20px;
+  font-size: 10pt;
 }
 .hover-hide >text.startCount, .hover-hide>text.endCount{
   display: none;
