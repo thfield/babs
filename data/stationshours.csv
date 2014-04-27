@@ -1,0 +1,1444 @@
+station,hour,rides
+2nd at Folsom,00,9
+2nd at Folsom,01,1
+2nd at Folsom,02,3
+2nd at Folsom,03,2
+2nd at Folsom,04,27
+2nd at Folsom,05,51
+2nd at Folsom,06,79
+2nd at Folsom,07,146
+2nd at Folsom,08,356
+2nd at Folsom,09,271
+2nd at Folsom,10,138
+2nd at Folsom,11,190
+2nd at Folsom,12,275
+2nd at Folsom,13,253
+2nd at Folsom,14,156
+2nd at Folsom,15,178
+2nd at Folsom,16,305
+2nd at Folsom,17,507
+2nd at Folsom,18,409
+2nd at Folsom,19,177
+2nd at Folsom,20,115
+2nd at Folsom,21,74
+2nd at Folsom,22,39
+2nd at Folsom,23,15
+2nd at South Park,00,7
+2nd at South Park,01,9
+2nd at South Park,03,2
+2nd at South Park,04,1
+2nd at South Park,05,11
+2nd at South Park,06,29
+2nd at South Park,07,137
+2nd at South Park,08,263
+2nd at South Park,09,274
+2nd at South Park,10,176
+2nd at South Park,11,244
+2nd at South Park,12,348
+2nd at South Park,13,256
+2nd at South Park,14,236
+2nd at South Park,15,218
+2nd at South Park,16,387
+2nd at South Park,17,802
+2nd at South Park,18,534
+2nd at South Park,19,237
+2nd at South Park,20,160
+2nd at South Park,21,56
+2nd at South Park,22,53
+2nd at South Park,23,18
+2nd at Townsend,00,10
+2nd at Townsend,01,5
+2nd at Townsend,02,5
+2nd at Townsend,04,4
+2nd at Townsend,05,9
+2nd at Townsend,06,133
+2nd at Townsend,07,158
+2nd at Townsend,08,453
+2nd at Townsend,09,433
+2nd at Townsend,10,188
+2nd at Townsend,11,239
+2nd at Townsend,12,369
+2nd at Townsend,13,310
+2nd at Townsend,14,242
+2nd at Townsend,15,306
+2nd at Townsend,16,502
+2nd at Townsend,17,671
+2nd at Townsend,18,470
+2nd at Townsend,19,207
+2nd at Townsend,20,112
+2nd at Townsend,21,70
+2nd at Townsend,22,63
+2nd at Townsend,23,28
+5th at Howard,00,16
+5th at Howard,01,12
+5th at Howard,02,3
+5th at Howard,03,7
+5th at Howard,05,4
+5th at Howard,06,80
+5th at Howard,07,138
+5th at Howard,08,132
+5th at Howard,09,197
+5th at Howard,10,156
+5th at Howard,11,124
+5th at Howard,12,173
+5th at Howard,13,173
+5th at Howard,14,134
+5th at Howard,15,192
+5th at Howard,16,227
+5th at Howard,17,269
+5th at Howard,18,278
+5th at Howard,19,96
+5th at Howard,20,85
+5th at Howard,21,67
+5th at Howard,22,36
+5th at Howard,23,36
+Adobe on Almaden,00,1
+Adobe on Almaden,01,1
+Adobe on Almaden,04,1
+Adobe on Almaden,08,1
+Adobe on Almaden,09,5
+Adobe on Almaden,10,6
+Adobe on Almaden,11,28
+Adobe on Almaden,12,26
+Adobe on Almaden,13,17
+Adobe on Almaden,14,21
+Adobe on Almaden,15,24
+Adobe on Almaden,16,81
+Adobe on Almaden,17,59
+Adobe on Almaden,18,30
+Adobe on Almaden,19,13
+Adobe on Almaden,20,4
+Adobe on Almaden,21,4
+Adobe on Almaden,22,11
+Adobe on Almaden,23,2
+Arena Green / SAP Center,00,15
+Arena Green / SAP Center,01,1
+Arena Green / SAP Center,07,3
+Arena Green / SAP Center,08,3
+Arena Green / SAP Center,09,6
+Arena Green / SAP Center,10,8
+Arena Green / SAP Center,11,16
+Arena Green / SAP Center,12,35
+Arena Green / SAP Center,13,21
+Arena Green / SAP Center,14,27
+Arena Green / SAP Center,15,17
+Arena Green / SAP Center,16,37
+Arena Green / SAP Center,17,25
+Arena Green / SAP Center,18,18
+Arena Green / SAP Center,19,16
+Arena Green / SAP Center,20,8
+Arena Green / SAP Center,21,9
+Arena Green / SAP Center,22,40
+Arena Green / SAP Center,23,34
+Beale at Market,00,14
+Beale at Market,01,5
+Beale at Market,02,3
+Beale at Market,03,1
+Beale at Market,04,1
+Beale at Market,05,7
+Beale at Market,06,33
+Beale at Market,07,69
+Beale at Market,08,311
+Beale at Market,09,396
+Beale at Market,10,220
+Beale at Market,11,156
+Beale at Market,12,191
+Beale at Market,13,156
+Beale at Market,14,149
+Beale at Market,15,249
+Beale at Market,16,321
+Beale at Market,17,402
+Beale at Market,18,144
+Beale at Market,19,91
+Beale at Market,20,53
+Beale at Market,21,39
+Beale at Market,22,32
+Beale at Market,23,14
+Broadway at Main,00,2
+Broadway at Main,10,2
+Broadway at Main,11,12
+Broadway at Main,12,4
+Broadway at Main,13,3
+Broadway at Main,14,8
+Broadway at Main,15,1
+Broadway at Main,16,9
+Broadway at Main,17,1
+Broadway at Main,18,1
+Broadway at Main,20,1
+Broadway at Main,23,1
+Broadway St at Battery St,05,7
+Broadway St at Battery St,07,7
+Broadway St at Battery St,08,27
+Broadway St at Battery St,09,24
+Broadway St at Battery St,10,12
+Broadway St at Battery St,11,4
+Broadway St at Battery St,12,16
+Broadway St at Battery St,13,11
+Broadway St at Battery St,14,9
+Broadway St at Battery St,15,7
+Broadway St at Battery St,16,15
+Broadway St at Battery St,17,18
+Broadway St at Battery St,18,28
+Broadway St at Battery St,19,6
+Broadway St at Battery St,20,5
+Broadway St at Battery St,21,2
+Broadway St at Battery St,22,1
+Broadway St at Battery St,23,2
+California Ave Caltrain Station,00,1
+California Ave Caltrain Station,01,1
+California Ave Caltrain Station,03,1
+California Ave Caltrain Station,06,9
+California Ave Caltrain Station,07,3
+California Ave Caltrain Station,08,5
+California Ave Caltrain Station,09,13
+California Ave Caltrain Station,10,23
+California Ave Caltrain Station,11,22
+California Ave Caltrain Station,12,27
+California Ave Caltrain Station,13,23
+California Ave Caltrain Station,14,26
+California Ave Caltrain Station,15,24
+California Ave Caltrain Station,16,33
+California Ave Caltrain Station,17,30
+California Ave Caltrain Station,18,21
+California Ave Caltrain Station,19,19
+California Ave Caltrain Station,20,5
+California Ave Caltrain Station,21,4
+California Ave Caltrain Station,22,2
+California Ave Caltrain Station,23,5
+Castro Street and El Camino Real,05,1
+Castro Street and El Camino Real,06,2
+Castro Street and El Camino Real,07,11
+Castro Street and El Camino Real,08,2
+Castro Street and El Camino Real,09,5
+Castro Street and El Camino Real,10,4
+Castro Street and El Camino Real,11,3
+Castro Street and El Camino Real,12,2
+Castro Street and El Camino Real,13,13
+Castro Street and El Camino Real,14,4
+Castro Street and El Camino Real,15,7
+Castro Street and El Camino Real,16,37
+Castro Street and El Camino Real,17,28
+Castro Street and El Camino Real,18,11
+Castro Street and El Camino Real,20,2
+Civic Center BART (7th at Market),00,12
+Civic Center BART (7th at Market),01,12
+Civic Center BART (7th at Market),02,6
+Civic Center BART (7th at Market),03,3
+Civic Center BART (7th at Market),04,36
+Civic Center BART (7th at Market),05,6
+Civic Center BART (7th at Market),06,28
+Civic Center BART (7th at Market),07,202
+Civic Center BART (7th at Market),08,470
+Civic Center BART (7th at Market),09,470
+Civic Center BART (7th at Market),10,223
+Civic Center BART (7th at Market),11,194
+Civic Center BART (7th at Market),12,213
+Civic Center BART (7th at Market),13,198
+Civic Center BART (7th at Market),14,151
+Civic Center BART (7th at Market),15,140
+Civic Center BART (7th at Market),16,160
+Civic Center BART (7th at Market),17,179
+Civic Center BART (7th at Market),18,121
+Civic Center BART (7th at Market),19,70
+Civic Center BART (7th at Market),20,86
+Civic Center BART (7th at Market),21,33
+Civic Center BART (7th at Market),22,32
+Civic Center BART (7th at Market),23,29
+Clay at Battery,00,10
+Clay at Battery,01,6
+Clay at Battery,02,7
+Clay at Battery,03,8
+Clay at Battery,04,1
+Clay at Battery,05,5
+Clay at Battery,06,92
+Clay at Battery,07,50
+Clay at Battery,08,105
+Clay at Battery,09,134
+Clay at Battery,10,127
+Clay at Battery,11,126
+Clay at Battery,12,198
+Clay at Battery,13,168
+Clay at Battery,14,144
+Clay at Battery,15,179
+Clay at Battery,16,241
+Clay at Battery,17,331
+Clay at Battery,18,238
+Clay at Battery,19,109
+Clay at Battery,20,48
+Clay at Battery,21,39
+Clay at Battery,22,32
+Clay at Battery,23,21
+Commercial at Montgomery,00,9
+Commercial at Montgomery,01,5
+Commercial at Montgomery,02,2
+Commercial at Montgomery,03,4
+Commercial at Montgomery,04,1
+Commercial at Montgomery,05,3
+Commercial at Montgomery,06,11
+Commercial at Montgomery,07,34
+Commercial at Montgomery,08,249
+Commercial at Montgomery,09,107
+Commercial at Montgomery,10,110
+Commercial at Montgomery,11,162
+Commercial at Montgomery,12,211
+Commercial at Montgomery,13,302
+Commercial at Montgomery,14,233
+Commercial at Montgomery,15,203
+Commercial at Montgomery,16,288
+Commercial at Montgomery,17,468
+Commercial at Montgomery,18,220
+Commercial at Montgomery,19,94
+Commercial at Montgomery,20,40
+Commercial at Montgomery,21,34
+Commercial at Montgomery,22,31
+Commercial at Montgomery,23,13
+Cowper at University,06,2
+Cowper at University,07,8
+Cowper at University,08,9
+Cowper at University,09,47
+Cowper at University,10,34
+Cowper at University,11,16
+Cowper at University,12,27
+Cowper at University,13,14
+Cowper at University,14,16
+Cowper at University,15,15
+Cowper at University,16,30
+Cowper at University,17,35
+Cowper at University,18,44
+Cowper at University,19,30
+Cowper at University,20,20
+Cowper at University,21,7
+Cowper at University,22,1
+Davis at Jackson,00,8
+Davis at Jackson,01,5
+Davis at Jackson,02,5
+Davis at Jackson,04,3
+Davis at Jackson,05,37
+Davis at Jackson,06,111
+Davis at Jackson,07,104
+Davis at Jackson,08,126
+Davis at Jackson,09,174
+Davis at Jackson,10,76
+Davis at Jackson,11,98
+Davis at Jackson,12,181
+Davis at Jackson,13,175
+Davis at Jackson,14,151
+Davis at Jackson,15,149
+Davis at Jackson,16,191
+Davis at Jackson,17,286
+Davis at Jackson,18,206
+Davis at Jackson,19,102
+Davis at Jackson,20,55
+Davis at Jackson,21,24
+Davis at Jackson,22,21
+Davis at Jackson,23,12
+Embarcadero at Bryant,00,17
+Embarcadero at Bryant,02,2
+Embarcadero at Bryant,03,1
+Embarcadero at Bryant,04,14
+Embarcadero at Bryant,05,95
+Embarcadero at Bryant,06,53
+Embarcadero at Bryant,07,229
+Embarcadero at Bryant,08,539
+Embarcadero at Bryant,09,350
+Embarcadero at Bryant,10,259
+Embarcadero at Bryant,11,201
+Embarcadero at Bryant,12,256
+Embarcadero at Bryant,13,223
+Embarcadero at Bryant,14,196
+Embarcadero at Bryant,15,195
+Embarcadero at Bryant,16,212
+Embarcadero at Bryant,17,177
+Embarcadero at Bryant,18,181
+Embarcadero at Bryant,19,132
+Embarcadero at Bryant,20,58
+Embarcadero at Bryant,21,58
+Embarcadero at Bryant,22,26
+Embarcadero at Bryant,23,23
+Embarcadero at Folsom,00,7
+Embarcadero at Folsom,01,3
+Embarcadero at Folsom,02,5
+Embarcadero at Folsom,04,1
+Embarcadero at Folsom,06,13
+Embarcadero at Folsom,07,35
+Embarcadero at Folsom,08,143
+Embarcadero at Folsom,09,106
+Embarcadero at Folsom,10,92
+Embarcadero at Folsom,11,171
+Embarcadero at Folsom,12,218
+Embarcadero at Folsom,13,215
+Embarcadero at Folsom,14,160
+Embarcadero at Folsom,15,179
+Embarcadero at Folsom,16,543
+Embarcadero at Folsom,17,552
+Embarcadero at Folsom,18,222
+Embarcadero at Folsom,19,105
+Embarcadero at Folsom,20,82
+Embarcadero at Folsom,21,48
+Embarcadero at Folsom,22,22
+Embarcadero at Folsom,23,9
+Embarcadero at Sansome,00,25
+Embarcadero at Sansome,01,21
+Embarcadero at Sansome,02,5
+Embarcadero at Sansome,03,13
+Embarcadero at Sansome,04,3
+Embarcadero at Sansome,05,10
+Embarcadero at Sansome,06,163
+Embarcadero at Sansome,07,184
+Embarcadero at Sansome,08,329
+Embarcadero at Sansome,09,230
+Embarcadero at Sansome,10,224
+Embarcadero at Sansome,11,344
+Embarcadero at Sansome,12,418
+Embarcadero at Sansome,13,476
+Embarcadero at Sansome,14,537
+Embarcadero at Sansome,15,677
+Embarcadero at Sansome,16,813
+Embarcadero at Sansome,17,733
+Embarcadero at Sansome,18,558
+Embarcadero at Sansome,19,332
+Embarcadero at Sansome,20,190
+Embarcadero at Sansome,21,125
+Embarcadero at Sansome,22,87
+Embarcadero at Sansome,23,48
+Embarcadero at Vallejo,00,9
+Embarcadero at Vallejo,01,7
+Embarcadero at Vallejo,02,9
+Embarcadero at Vallejo,03,4
+Embarcadero at Vallejo,05,2
+Embarcadero at Vallejo,06,3
+Embarcadero at Vallejo,07,11
+Embarcadero at Vallejo,08,52
+Embarcadero at Vallejo,09,56
+Embarcadero at Vallejo,10,69
+Embarcadero at Vallejo,11,144
+Embarcadero at Vallejo,12,218
+Embarcadero at Vallejo,13,235
+Embarcadero at Vallejo,14,229
+Embarcadero at Vallejo,15,364
+Embarcadero at Vallejo,16,352
+Embarcadero at Vallejo,17,492
+Embarcadero at Vallejo,18,266
+Embarcadero at Vallejo,19,108
+Embarcadero at Vallejo,20,58
+Embarcadero at Vallejo,21,45
+Embarcadero at Vallejo,22,29
+Embarcadero at Vallejo,23,23
+Evelyn Park and Ride,02,1
+Evelyn Park and Ride,06,39
+Evelyn Park and Ride,07,46
+Evelyn Park and Ride,08,19
+Evelyn Park and Ride,09,8
+Evelyn Park and Ride,10,8
+Evelyn Park and Ride,11,7
+Evelyn Park and Ride,12,7
+Evelyn Park and Ride,13,9
+Evelyn Park and Ride,14,11
+Evelyn Park and Ride,15,16
+Evelyn Park and Ride,16,23
+Evelyn Park and Ride,17,1
+Evelyn Park and Ride,18,15
+Evelyn Park and Ride,19,3
+Evelyn Park and Ride,20,2
+Evelyn Park and Ride,21,3
+Franklin at Maple,02,1
+Franklin at Maple,05,1
+Franklin at Maple,07,2
+Franklin at Maple,08,5
+Franklin at Maple,09,3
+Franklin at Maple,10,8
+Franklin at Maple,11,15
+Franklin at Maple,12,7
+Franklin at Maple,13,3
+Franklin at Maple,14,4
+Franklin at Maple,15,8
+Franklin at Maple,16,4
+Franklin at Maple,17,12
+Franklin at Maple,18,8
+Franklin at Maple,19,6
+Franklin at Maple,20,4
+Franklin at Maple,21,5
+Franklin at Maple,22,2
+Franklin at Maple,23,1
+Golden Gate at Polk,00,5
+Golden Gate at Polk,01,6
+Golden Gate at Polk,02,2
+Golden Gate at Polk,03,3
+Golden Gate at Polk,04,1
+Golden Gate at Polk,05,17
+Golden Gate at Polk,06,72
+Golden Gate at Polk,07,142
+Golden Gate at Polk,08,301
+Golden Gate at Polk,09,226
+Golden Gate at Polk,10,116
+Golden Gate at Polk,11,89
+Golden Gate at Polk,12,131
+Golden Gate at Polk,13,79
+Golden Gate at Polk,14,77
+Golden Gate at Polk,15,101
+Golden Gate at Polk,16,116
+Golden Gate at Polk,17,95
+Golden Gate at Polk,18,45
+Golden Gate at Polk,19,34
+Golden Gate at Polk,20,41
+Golden Gate at Polk,21,28
+Golden Gate at Polk,22,21
+Golden Gate at Polk,23,9
+Grant Avenue at Columbus Avenue,00,22
+Grant Avenue at Columbus Avenue,01,23
+Grant Avenue at Columbus Avenue,02,6
+Grant Avenue at Columbus Avenue,03,3
+Grant Avenue at Columbus Avenue,04,35
+Grant Avenue at Columbus Avenue,05,73
+Grant Avenue at Columbus Avenue,06,206
+Grant Avenue at Columbus Avenue,07,467
+Grant Avenue at Columbus Avenue,08,698
+Grant Avenue at Columbus Avenue,09,418
+Grant Avenue at Columbus Avenue,10,220
+Grant Avenue at Columbus Avenue,11,164
+Grant Avenue at Columbus Avenue,12,177
+Grant Avenue at Columbus Avenue,13,182
+Grant Avenue at Columbus Avenue,14,149
+Grant Avenue at Columbus Avenue,15,181
+Grant Avenue at Columbus Avenue,16,188
+Grant Avenue at Columbus Avenue,17,198
+Grant Avenue at Columbus Avenue,18,218
+Grant Avenue at Columbus Avenue,19,130
+Grant Avenue at Columbus Avenue,20,87
+Grant Avenue at Columbus Avenue,21,51
+Grant Avenue at Columbus Avenue,22,57
+Grant Avenue at Columbus Avenue,23,51
+Harry Bridges Plaza (Ferry Building),00,14
+Harry Bridges Plaza (Ferry Building),01,3
+Harry Bridges Plaza (Ferry Building),02,8
+Harry Bridges Plaza (Ferry Building),03,1
+Harry Bridges Plaza (Ferry Building),04,2
+Harry Bridges Plaza (Ferry Building),05,16
+Harry Bridges Plaza (Ferry Building),06,153
+Harry Bridges Plaza (Ferry Building),07,545
+Harry Bridges Plaza (Ferry Building),08,1107
+Harry Bridges Plaza (Ferry Building),09,459
+Harry Bridges Plaza (Ferry Building),10,283
+Harry Bridges Plaza (Ferry Building),11,481
+Harry Bridges Plaza (Ferry Building),12,639
+Harry Bridges Plaza (Ferry Building),13,665
+Harry Bridges Plaza (Ferry Building),14,586
+Harry Bridges Plaza (Ferry Building),15,458
+Harry Bridges Plaza (Ferry Building),16,581
+Harry Bridges Plaza (Ferry Building),17,428
+Harry Bridges Plaza (Ferry Building),18,360
+Harry Bridges Plaza (Ferry Building),19,202
+Harry Bridges Plaza (Ferry Building),20,152
+Harry Bridges Plaza (Ferry Building),21,109
+Harry Bridges Plaza (Ferry Building),22,53
+Harry Bridges Plaza (Ferry Building),23,38
+Howard at 2nd,00,13
+Howard at 2nd,01,7
+Howard at 2nd,02,13
+Howard at 2nd,03,5
+Howard at 2nd,04,54
+Howard at 2nd,05,4
+Howard at 2nd,06,20
+Howard at 2nd,07,105
+Howard at 2nd,08,147
+Howard at 2nd,09,258
+Howard at 2nd,10,137
+Howard at 2nd,11,150
+Howard at 2nd,12,258
+Howard at 2nd,13,200
+Howard at 2nd,14,152
+Howard at 2nd,15,168
+Howard at 2nd,16,326
+Howard at 2nd,17,444
+Howard at 2nd,18,358
+Howard at 2nd,19,200
+Howard at 2nd,20,108
+Howard at 2nd,21,74
+Howard at 2nd,22,40
+Howard at 2nd,23,22
+Japantown,00,12
+Japantown,01,7
+Japantown,02,4
+Japantown,04,1
+Japantown,06,3
+Japantown,07,13
+Japantown,08,14
+Japantown,09,20
+Japantown,10,17
+Japantown,11,28
+Japantown,12,31
+Japantown,13,40
+Japantown,14,10
+Japantown,15,41
+Japantown,16,74
+Japantown,17,53
+Japantown,18,44
+Japantown,19,32
+Japantown,20,17
+Japantown,21,19
+Japantown,22,6
+Japantown,23,10
+Market at 10th,00,17
+Market at 10th,01,3
+Market at 10th,02,15
+Market at 10th,03,2
+Market at 10th,04,1
+Market at 10th,05,4
+Market at 10th,06,19
+Market at 10th,07,145
+Market at 10th,08,228
+Market at 10th,09,323
+Market at 10th,10,212
+Market at 10th,11,236
+Market at 10th,12,239
+Market at 10th,13,218
+Market at 10th,14,161
+Market at 10th,15,157
+Market at 10th,16,314
+Market at 10th,17,406
+Market at 10th,18,356
+Market at 10th,19,160
+Market at 10th,20,119
+Market at 10th,21,95
+Market at 10th,22,57
+Market at 10th,23,24
+Market at 4th,00,30
+Market at 4th,01,14
+Market at 4th,02,8
+Market at 4th,03,2
+Market at 4th,04,1
+Market at 4th,05,4
+Market at 4th,06,72
+Market at 4th,07,187
+Market at 4th,08,245
+Market at 4th,09,344
+Market at 4th,10,260
+Market at 4th,11,280
+Market at 4th,12,389
+Market at 4th,13,379
+Market at 4th,14,332
+Market at 4th,15,355
+Market at 4th,16,464
+Market at 4th,17,438
+Market at 4th,18,413
+Market at 4th,19,256
+Market at 4th,20,209
+Market at 4th,21,191
+Market at 4th,22,107
+Market at 4th,23,50
+Market at Sansome,00,34
+Market at Sansome,01,22
+Market at Sansome,02,5
+Market at Sansome,05,6
+Market at Sansome,06,29
+Market at Sansome,07,141
+Market at Sansome,08,473
+Market at Sansome,09,629
+Market at Sansome,10,328
+Market at Sansome,11,276
+Market at Sansome,12,389
+Market at Sansome,13,380
+Market at Sansome,14,313
+Market at Sansome,15,340
+Market at Sansome,16,604
+Market at Sansome,17,725
+Market at Sansome,18,450
+Market at Sansome,19,319
+Market at Sansome,20,228
+Market at Sansome,21,100
+Market at Sansome,22,84
+Market at Sansome,23,47
+Mechanics Plaza (Market at Battery),00,11
+Mechanics Plaza (Market at Battery),01,6
+Mechanics Plaza (Market at Battery),02,14
+Mechanics Plaza (Market at Battery),03,3
+Mechanics Plaza (Market at Battery),04,1
+Mechanics Plaza (Market at Battery),05,4
+Mechanics Plaza (Market at Battery),06,50
+Mechanics Plaza (Market at Battery),07,74
+Mechanics Plaza (Market at Battery),08,143
+Mechanics Plaza (Market at Battery),09,167
+Mechanics Plaza (Market at Battery),10,129
+Mechanics Plaza (Market at Battery),11,217
+Mechanics Plaza (Market at Battery),12,261
+Mechanics Plaza (Market at Battery),13,212
+Mechanics Plaza (Market at Battery),14,186
+Mechanics Plaza (Market at Battery),15,197
+Mechanics Plaza (Market at Battery),16,305
+Mechanics Plaza (Market at Battery),17,408
+Mechanics Plaza (Market at Battery),18,207
+Mechanics Plaza (Market at Battery),19,116
+Mechanics Plaza (Market at Battery),20,63
+Mechanics Plaza (Market at Battery),21,45
+Mechanics Plaza (Market at Battery),22,28
+Mechanics Plaza (Market at Battery),23,21
+Mezes Park,08,1
+Mezes Park,09,2
+MLK Library,00,9
+MLK Library,01,4
+MLK Library,02,2
+MLK Library,04,1
+MLK Library,06,1
+MLK Library,07,7
+MLK Library,08,8
+MLK Library,09,20
+MLK Library,10,26
+MLK Library,11,31
+MLK Library,12,44
+MLK Library,13,40
+MLK Library,14,42
+MLK Library,15,41
+MLK Library,16,47
+MLK Library,17,44
+MLK Library,18,39
+MLK Library,19,26
+MLK Library,20,38
+MLK Library,21,30
+MLK Library,22,12
+MLK Library,23,16
+Mountain View Caltrain Station,00,2
+Mountain View Caltrain Station,01,11
+Mountain View Caltrain Station,02,1
+Mountain View Caltrain Station,05,1
+Mountain View Caltrain Station,06,29
+Mountain View Caltrain Station,07,55
+Mountain View Caltrain Station,08,123
+Mountain View Caltrain Station,09,255
+Mountain View Caltrain Station,10,109
+Mountain View Caltrain Station,11,40
+Mountain View Caltrain Station,12,39
+Mountain View Caltrain Station,13,30
+Mountain View Caltrain Station,14,26
+Mountain View Caltrain Station,15,38
+Mountain View Caltrain Station,16,75
+Mountain View Caltrain Station,17,90
+Mountain View Caltrain Station,18,122
+Mountain View Caltrain Station,19,50
+Mountain View Caltrain Station,20,20
+Mountain View Caltrain Station,21,15
+Mountain View Caltrain Station,22,16
+Mountain View Caltrain Station,23,7
+Mountain View City Hall,01,1
+Mountain View City Hall,04,1
+Mountain View City Hall,05,11
+Mountain View City Hall,06,14
+Mountain View City Hall,07,39
+Mountain View City Hall,08,36
+Mountain View City Hall,09,19
+Mountain View City Hall,10,20
+Mountain View City Hall,11,11
+Mountain View City Hall,12,19
+Mountain View City Hall,13,18
+Mountain View City Hall,14,22
+Mountain View City Hall,15,35
+Mountain View City Hall,16,100
+Mountain View City Hall,17,119
+Mountain View City Hall,18,82
+Mountain View City Hall,19,41
+Mountain View City Hall,20,23
+Mountain View City Hall,21,11
+Mountain View City Hall,22,8
+Palo Alto Caltrain Station,00,2
+Palo Alto Caltrain Station,01,4
+Palo Alto Caltrain Station,02,5
+Palo Alto Caltrain Station,06,2
+Palo Alto Caltrain Station,07,13
+Palo Alto Caltrain Station,08,71
+Palo Alto Caltrain Station,09,88
+Palo Alto Caltrain Station,10,25
+Palo Alto Caltrain Station,11,23
+Palo Alto Caltrain Station,12,29
+Palo Alto Caltrain Station,13,15
+Palo Alto Caltrain Station,14,15
+Palo Alto Caltrain Station,15,21
+Palo Alto Caltrain Station,16,15
+Palo Alto Caltrain Station,17,43
+Palo Alto Caltrain Station,18,28
+Palo Alto Caltrain Station,19,13
+Palo Alto Caltrain Station,20,9
+Palo Alto Caltrain Station,21,6
+Palo Alto Caltrain Station,22,4
+Park at Olive,01,3
+Park at Olive,02,1
+Park at Olive,03,1
+Park at Olive,04,1
+Park at Olive,05,1
+Park at Olive,07,1
+Park at Olive,08,7
+Park at Olive,09,19
+Park at Olive,10,11
+Park at Olive,11,14
+Park at Olive,12,18
+Park at Olive,13,18
+Park at Olive,14,17
+Park at Olive,15,16
+Park at Olive,16,15
+Park at Olive,17,17
+Park at Olive,18,16
+Park at Olive,19,7
+Park at Olive,20,3
+Park at Olive,21,2
+Park at Olive,23,1
+Paseo de San Antonio,00,2
+Paseo de San Antonio,01,7
+Paseo de San Antonio,06,3
+Paseo de San Antonio,07,141
+Paseo de San Antonio,08,33
+Paseo de San Antonio,09,14
+Paseo de San Antonio,10,31
+Paseo de San Antonio,11,39
+Paseo de San Antonio,12,44
+Paseo de San Antonio,13,59
+Paseo de San Antonio,14,52
+Paseo de San Antonio,15,54
+Paseo de San Antonio,16,35
+Paseo de San Antonio,17,64
+Paseo de San Antonio,18,50
+Paseo de San Antonio,19,53
+Paseo de San Antonio,20,33
+Paseo de San Antonio,21,20
+Paseo de San Antonio,22,3
+Paseo de San Antonio,23,8
+Post at Kearney,00,13
+Post at Kearney,01,16
+Post at Kearney,02,5
+Post at Kearney,03,2
+Post at Kearney,04,10
+Post at Kearney,05,3
+Post at Kearney,06,13
+Post at Kearney,07,25
+Post at Kearney,08,83
+Post at Kearney,09,150
+Post at Kearney,10,122
+Post at Kearney,11,145
+Post at Kearney,12,264
+Post at Kearney,13,201
+Post at Kearney,14,155
+Post at Kearney,15,183
+Post at Kearney,16,225
+Post at Kearney,17,306
+Post at Kearney,18,225
+Post at Kearney,19,159
+Post at Kearney,20,84
+Post at Kearney,21,51
+Post at Kearney,22,37
+Post at Kearney,23,26
+Powell at Post (Union Square),00,29
+Powell at Post (Union Square),01,17
+Powell at Post (Union Square),02,18
+Powell at Post (Union Square),03,3
+Powell at Post (Union Square),04,1
+Powell at Post (Union Square),05,21
+Powell at Post (Union Square),06,59
+Powell at Post (Union Square),07,207
+Powell at Post (Union Square),08,295
+Powell at Post (Union Square),09,272
+Powell at Post (Union Square),10,271
+Powell at Post (Union Square),11,222
+Powell at Post (Union Square),12,176
+Powell at Post (Union Square),13,179
+Powell at Post (Union Square),14,144
+Powell at Post (Union Square),15,159
+Powell at Post (Union Square),16,186
+Powell at Post (Union Square),17,149
+Powell at Post (Union Square),18,115
+Powell at Post (Union Square),19,94
+Powell at Post (Union Square),20,59
+Powell at Post (Union Square),21,66
+Powell at Post (Union Square),22,50
+Powell at Post (Union Square),23,32
+Powell Street BART,00,28
+Powell Street BART,01,24
+Powell Street BART,02,12
+Powell Street BART,03,10
+Powell Street BART,04,11
+Powell Street BART,05,8
+Powell Street BART,06,15
+Powell Street BART,07,84
+Powell Street BART,08,273
+Powell Street BART,09,435
+Powell Street BART,10,276
+Powell Street BART,11,236
+Powell Street BART,12,311
+Powell Street BART,13,309
+Powell Street BART,14,222
+Powell Street BART,15,218
+Powell Street BART,16,211
+Powell Street BART,17,362
+Powell Street BART,18,266
+Powell Street BART,19,145
+Powell Street BART,20,126
+Powell Street BART,21,100
+Powell Street BART,22,83
+Powell Street BART,23,71
+Redwood City Caltrain Station,00,3
+Redwood City Caltrain Station,01,1
+Redwood City Caltrain Station,05,2
+Redwood City Caltrain Station,06,2
+Redwood City Caltrain Station,07,52
+Redwood City Caltrain Station,08,107
+Redwood City Caltrain Station,09,29
+Redwood City Caltrain Station,10,16
+Redwood City Caltrain Station,11,17
+Redwood City Caltrain Station,12,14
+Redwood City Caltrain Station,13,19
+Redwood City Caltrain Station,14,18
+Redwood City Caltrain Station,15,17
+Redwood City Caltrain Station,16,19
+Redwood City Caltrain Station,17,15
+Redwood City Caltrain Station,18,6
+Redwood City Caltrain Station,19,22
+Redwood City Caltrain Station,20,6
+Redwood City Caltrain Station,21,7
+Redwood City Caltrain Station,22,4
+Redwood City Caltrain Station,23,2
+Redwood City Medical Center,07,1
+Redwood City Medical Center,08,6
+Redwood City Medical Center,10,8
+Redwood City Medical Center,11,5
+Redwood City Medical Center,12,16
+Redwood City Medical Center,13,6
+Redwood City Medical Center,14,4
+Redwood City Medical Center,15,16
+Redwood City Medical Center,16,14
+Redwood City Medical Center,17,27
+Redwood City Medical Center,18,11
+Redwood City Medical Center,19,8
+Redwood City Medical Center,20,1
+Redwood City Public Library,08,1
+Redwood City Public Library,09,1
+Redwood City Public Library,10,4
+Redwood City Public Library,11,3
+Redwood City Public Library,12,6
+Redwood City Public Library,13,8
+Redwood City Public Library,14,5
+Redwood City Public Library,15,2
+Redwood City Public Library,17,5
+Redwood City Public Library,18,4
+Redwood City Public Library,19,1
+Redwood City Public Library,20,2
+Redwood City Public Library,23,2
+Rengstorff Avenue / California Street,00,1
+Rengstorff Avenue / California Street,02,1
+Rengstorff Avenue / California Street,06,9
+Rengstorff Avenue / California Street,07,48
+Rengstorff Avenue / California Street,08,23
+Rengstorff Avenue / California Street,09,21
+Rengstorff Avenue / California Street,10,10
+Rengstorff Avenue / California Street,11,16
+Rengstorff Avenue / California Street,12,24
+Rengstorff Avenue / California Street,13,15
+Rengstorff Avenue / California Street,14,16
+Rengstorff Avenue / California Street,15,16
+Rengstorff Avenue / California Street,16,12
+Rengstorff Avenue / California Street,17,16
+Rengstorff Avenue / California Street,18,17
+Rengstorff Avenue / California Street,19,2
+Rengstorff Avenue / California Street,20,1
+San Antonio Caltrain Station,03,1
+San Antonio Caltrain Station,07,2
+San Antonio Caltrain Station,08,22
+San Antonio Caltrain Station,09,18
+San Antonio Caltrain Station,10,15
+San Antonio Caltrain Station,11,20
+San Antonio Caltrain Station,12,7
+San Antonio Caltrain Station,13,10
+San Antonio Caltrain Station,14,11
+San Antonio Caltrain Station,15,10
+San Antonio Caltrain Station,16,7
+San Antonio Caltrain Station,17,18
+San Antonio Caltrain Station,18,37
+San Antonio Caltrain Station,19,26
+San Antonio Caltrain Station,20,10
+San Antonio Caltrain Station,21,10
+San Antonio Caltrain Station,22,6
+San Antonio Caltrain Station,23,8
+San Antonio Shopping Center,09,20
+San Antonio Shopping Center,10,2
+San Antonio Shopping Center,11,4
+San Antonio Shopping Center,12,6
+San Antonio Shopping Center,13,4
+San Antonio Shopping Center,14,3
+San Antonio Shopping Center,15,10
+San Antonio Shopping Center,16,33
+San Antonio Shopping Center,17,18
+San Antonio Shopping Center,18,4
+San Antonio Shopping Center,19,2
+San Antonio Shopping Center,20,2
+San Francisco Caltrain (Townsend at 4th),00,16
+San Francisco Caltrain (Townsend at 4th),01,4
+San Francisco Caltrain (Townsend at 4th),02,7
+San Francisco Caltrain (Townsend at 4th),03,7
+San Francisco Caltrain (Townsend at 4th),04,12
+San Francisco Caltrain (Townsend at 4th),05,67
+San Francisco Caltrain (Townsend at 4th),06,444
+San Francisco Caltrain (Townsend at 4th),07,1636
+San Francisco Caltrain (Townsend at 4th),08,2028
+San Francisco Caltrain (Townsend at 4th),09,1173
+San Francisco Caltrain (Townsend at 4th),10,468
+San Francisco Caltrain (Townsend at 4th),11,319
+San Francisco Caltrain (Townsend at 4th),12,255
+San Francisco Caltrain (Townsend at 4th),13,217
+San Francisco Caltrain (Townsend at 4th),14,200
+San Francisco Caltrain (Townsend at 4th),15,214
+San Francisco Caltrain (Townsend at 4th),16,306
+San Francisco Caltrain (Townsend at 4th),17,839
+San Francisco Caltrain (Townsend at 4th),18,725
+San Francisco Caltrain (Townsend at 4th),19,475
+San Francisco Caltrain (Townsend at 4th),20,165
+San Francisco Caltrain (Townsend at 4th),21,126
+San Francisco Caltrain (Townsend at 4th),22,88
+San Francisco Caltrain (Townsend at 4th),23,47
+San Francisco Caltrain 2 (330 Townsend),00,14
+San Francisco Caltrain 2 (330 Townsend),01,1
+San Francisco Caltrain 2 (330 Townsend),02,3
+San Francisco Caltrain 2 (330 Townsend),03,2
+San Francisco Caltrain 2 (330 Townsend),05,3
+San Francisco Caltrain 2 (330 Townsend),06,52
+San Francisco Caltrain 2 (330 Townsend),07,229
+San Francisco Caltrain 2 (330 Townsend),08,987
+San Francisco Caltrain 2 (330 Townsend),09,792
+San Francisco Caltrain 2 (330 Townsend),10,400
+San Francisco Caltrain 2 (330 Townsend),11,236
+San Francisco Caltrain 2 (330 Townsend),12,222
+San Francisco Caltrain 2 (330 Townsend),13,185
+San Francisco Caltrain 2 (330 Townsend),14,147
+San Francisco Caltrain 2 (330 Townsend),15,164
+San Francisco Caltrain 2 (330 Townsend),16,258
+San Francisco Caltrain 2 (330 Townsend),17,302
+San Francisco Caltrain 2 (330 Townsend),18,359
+San Francisco Caltrain 2 (330 Townsend),19,320
+San Francisco Caltrain 2 (330 Townsend),20,153
+San Francisco Caltrain 2 (330 Townsend),21,77
+San Francisco Caltrain 2 (330 Townsend),22,47
+San Francisco Caltrain 2 (330 Townsend),23,23
+San Francisco City Hall,00,6
+San Francisco City Hall,01,1
+San Francisco City Hall,02,2
+San Francisco City Hall,03,2
+San Francisco City Hall,04,2
+San Francisco City Hall,05,1
+San Francisco City Hall,06,9
+San Francisco City Hall,07,32
+San Francisco City Hall,08,98
+San Francisco City Hall,09,109
+San Francisco City Hall,10,76
+San Francisco City Hall,11,99
+San Francisco City Hall,12,132
+San Francisco City Hall,13,103
+San Francisco City Hall,14,123
+San Francisco City Hall,15,111
+San Francisco City Hall,16,136
+San Francisco City Hall,17,71
+San Francisco City Hall,18,43
+San Francisco City Hall,19,30
+San Francisco City Hall,20,22
+San Francisco City Hall,21,22
+San Francisco City Hall,22,15
+San Francisco City Hall,23,12
+San Jose City Hall,00,9
+San Jose City Hall,01,5
+San Jose City Hall,04,1
+San Jose City Hall,05,5
+San Jose City Hall,06,3
+San Jose City Hall,07,23
+San Jose City Hall,08,5
+San Jose City Hall,09,14
+San Jose City Hall,10,41
+San Jose City Hall,11,145
+San Jose City Hall,12,64
+San Jose City Hall,13,54
+San Jose City Hall,14,43
+San Jose City Hall,15,53
+San Jose City Hall,16,100
+San Jose City Hall,17,100
+San Jose City Hall,18,31
+San Jose City Hall,19,13
+San Jose City Hall,20,12
+San Jose City Hall,21,5
+San Jose City Hall,22,8
+San Jose City Hall,23,6
+San Jose Civic Center,00,2
+San Jose Civic Center,01,9
+San Jose Civic Center,02,2
+San Jose Civic Center,03,1
+San Jose Civic Center,05,2
+San Jose Civic Center,06,4
+San Jose Civic Center,07,6
+San Jose Civic Center,08,15
+San Jose Civic Center,09,16
+San Jose Civic Center,10,31
+San Jose Civic Center,11,19
+San Jose Civic Center,12,35
+San Jose Civic Center,13,27
+San Jose Civic Center,14,22
+San Jose Civic Center,15,36
+San Jose Civic Center,16,30
+San Jose Civic Center,17,30
+San Jose Civic Center,18,15
+San Jose Civic Center,19,11
+San Jose Civic Center,20,11
+San Jose Civic Center,21,7
+San Jose Civic Center,22,12
+San Jose Civic Center,23,3
+San Jose Diridon Caltrain Station,00,19
+San Jose Diridon Caltrain Station,01,22
+San Jose Diridon Caltrain Station,02,1
+San Jose Diridon Caltrain Station,05,2
+San Jose Diridon Caltrain Station,06,40
+San Jose Diridon Caltrain Station,07,220
+San Jose Diridon Caltrain Station,08,395
+San Jose Diridon Caltrain Station,09,171
+San Jose Diridon Caltrain Station,10,148
+San Jose Diridon Caltrain Station,11,54
+San Jose Diridon Caltrain Station,12,45
+San Jose Diridon Caltrain Station,13,54
+San Jose Diridon Caltrain Station,14,37
+San Jose Diridon Caltrain Station,15,34
+San Jose Diridon Caltrain Station,16,33
+San Jose Diridon Caltrain Station,17,191
+San Jose Diridon Caltrain Station,18,183
+San Jose Diridon Caltrain Station,19,144
+San Jose Diridon Caltrain Station,20,57
+San Jose Diridon Caltrain Station,21,39
+San Jose Diridon Caltrain Station,22,51
+San Jose Diridon Caltrain Station,23,32
+San Jose Government Center,08,1
+San Jose Government Center,09,1
+San Jose Government Center,10,1
+San Jose Government Center,11,1
+San Jose Government Center,12,10
+San Jose Government Center,14,3
+San Jose Government Center,15,1
+San Jose Government Center,17,2
+San Jose Government Center,18,1
+San Jose Government Center,19,2
+San Mateo County Center,07,1
+San Mateo County Center,08,1
+San Mateo County Center,09,2
+San Mateo County Center,10,15
+San Mateo County Center,11,7
+San Mateo County Center,12,31
+San Mateo County Center,13,10
+San Mateo County Center,14,3
+San Mateo County Center,15,10
+San Mateo County Center,16,14
+San Mateo County Center,17,4
+San Mateo County Center,18,1
+San Mateo County Center,19,1
+San Mateo County Center,20,1
+San Pedro Square,00,11
+San Pedro Square,01,8
+San Pedro Square,02,4
+San Pedro Square,06,3
+San Pedro Square,07,8
+San Pedro Square,08,8
+San Pedro Square,09,10
+San Pedro Square,10,26
+San Pedro Square,11,24
+San Pedro Square,12,60
+San Pedro Square,13,58
+San Pedro Square,14,37
+San Pedro Square,15,36
+San Pedro Square,16,133
+San Pedro Square,17,116
+San Pedro Square,18,33
+San Pedro Square,19,34
+San Pedro Square,20,25
+San Pedro Square,21,34
+San Pedro Square,22,33
+San Pedro Square,23,14
+San Salvador at 1st,00,5
+San Salvador at 1st,01,5
+San Salvador at 1st,03,2
+San Salvador at 1st,04,5
+San Salvador at 1st,05,18
+San Salvador at 1st,06,9
+San Salvador at 1st,07,24
+San Salvador at 1st,08,107
+San Salvador at 1st,09,18
+San Salvador at 1st,10,23
+San Salvador at 1st,11,33
+San Salvador at 1st,12,103
+San Salvador at 1st,13,30
+San Salvador at 1st,14,21
+San Salvador at 1st,15,22
+San Salvador at 1st,16,21
+San Salvador at 1st,17,31
+San Salvador at 1st,18,27
+San Salvador at 1st,19,21
+San Salvador at 1st,20,25
+San Salvador at 1st,21,26
+San Salvador at 1st,22,13
+San Salvador at 1st,23,8
+Santa Clara at Almaden,00,8
+Santa Clara at Almaden,01,5
+Santa Clara at Almaden,02,4
+Santa Clara at Almaden,03,2
+Santa Clara at Almaden,04,1
+Santa Clara at Almaden,05,90
+Santa Clara at Almaden,06,7
+Santa Clara at Almaden,07,21
+Santa Clara at Almaden,08,58
+Santa Clara at Almaden,09,44
+Santa Clara at Almaden,10,42
+Santa Clara at Almaden,11,23
+Santa Clara at Almaden,12,25
+Santa Clara at Almaden,13,44
+Santa Clara at Almaden,14,38
+Santa Clara at Almaden,15,31
+Santa Clara at Almaden,16,153
+Santa Clara at Almaden,17,138
+Santa Clara at Almaden,18,65
+Santa Clara at Almaden,19,18
+Santa Clara at Almaden,20,8
+Santa Clara at Almaden,21,4
+Santa Clara at Almaden,22,10
+Santa Clara at Almaden,23,16
+SJSU - San Salvador at 9th,00,3
+SJSU - San Salvador at 9th,02,6
+SJSU - San Salvador at 9th,06,40
+SJSU - San Salvador at 9th,07,40
+SJSU - San Salvador at 9th,08,24
+SJSU - San Salvador at 9th,09,52
+SJSU - San Salvador at 9th,10,28
+SJSU - San Salvador at 9th,11,14
+SJSU - San Salvador at 9th,12,27
+SJSU - San Salvador at 9th,13,20
+SJSU - San Salvador at 9th,14,29
+SJSU - San Salvador at 9th,15,28
+SJSU - San Salvador at 9th,16,37
+SJSU - San Salvador at 9th,17,39
+SJSU - San Salvador at 9th,18,24
+SJSU - San Salvador at 9th,19,16
+SJSU - San Salvador at 9th,20,17
+SJSU - San Salvador at 9th,21,22
+SJSU - San Salvador at 9th,22,12
+SJSU - San Salvador at 9th,23,11
+SJSU 4th at San Carlos,00,5
+SJSU 4th at San Carlos,01,3
+SJSU 4th at San Carlos,02,1
+SJSU 4th at San Carlos,03,2
+SJSU 4th at San Carlos,05,2
+SJSU 4th at San Carlos,06,1
+SJSU 4th at San Carlos,08,3
+SJSU 4th at San Carlos,09,8
+SJSU 4th at San Carlos,10,14
+SJSU 4th at San Carlos,11,35
+SJSU 4th at San Carlos,12,41
+SJSU 4th at San Carlos,13,38
+SJSU 4th at San Carlos,14,16
+SJSU 4th at San Carlos,15,15
+SJSU 4th at San Carlos,16,25
+SJSU 4th at San Carlos,17,40
+SJSU 4th at San Carlos,18,35
+SJSU 4th at San Carlos,19,21
+SJSU 4th at San Carlos,20,24
+SJSU 4th at San Carlos,21,41
+SJSU 4th at San Carlos,22,15
+SJSU 4th at San Carlos,23,4
+South Van Ness at Market,00,25
+South Van Ness at Market,01,8
+South Van Ness at Market,02,9
+South Van Ness at Market,03,4
+South Van Ness at Market,04,7
+South Van Ness at Market,05,5
+South Van Ness at Market,06,43
+South Van Ness at Market,07,256
+South Van Ness at Market,08,583
+South Van Ness at Market,09,333
+South Van Ness at Market,10,182
+South Van Ness at Market,11,230
+South Van Ness at Market,12,270
+South Van Ness at Market,13,156
+South Van Ness at Market,14,163
+South Van Ness at Market,15,146
+South Van Ness at Market,16,351
+South Van Ness at Market,17,313
+South Van Ness at Market,18,129
+South Van Ness at Market,19,69
+South Van Ness at Market,20,98
+South Van Ness at Market,21,90
+South Van Ness at Market,22,33
+South Van Ness at Market,23,18
+Spear at Folsom,00,8
+Spear at Folsom,01,5
+Spear at Folsom,02,3
+Spear at Folsom,04,2
+Spear at Folsom,05,50
+Spear at Folsom,06,129
+Spear at Folsom,07,201
+Spear at Folsom,08,261
+Spear at Folsom,09,269
+Spear at Folsom,10,250
+Spear at Folsom,11,201
+Spear at Folsom,12,236
+Spear at Folsom,13,229
+Spear at Folsom,14,175
+Spear at Folsom,15,160
+Spear at Folsom,16,196
+Spear at Folsom,17,426
+Spear at Folsom,18,316
+Spear at Folsom,19,149
+Spear at Folsom,20,83
+Spear at Folsom,21,44
+Spear at Folsom,22,17
+Spear at Folsom,23,13
+St James Park,00,1
+St James Park,05,3
+St James Park,06,13
+St James Park,07,27
+St James Park,08,6
+St James Park,09,14
+St James Park,10,14
+St James Park,11,14
+St James Park,12,31
+St James Park,13,19
+St James Park,14,23
+St James Park,15,21
+St James Park,16,67
+St James Park,17,44
+St James Park,18,23
+St James Park,19,18
+St James Park,20,13
+St James Park,21,9
+St James Park,22,4
+St James Park,23,2
+Steuart at Market,00,22
+Steuart at Market,01,8
+Steuart at Market,02,2
+Steuart at Market,04,2
+Steuart at Market,06,106
+Steuart at Market,07,273
+Steuart at Market,08,598
+Steuart at Market,09,615
+Steuart at Market,10,204
+Steuart at Market,11,219
+Steuart at Market,12,266
+Steuart at Market,13,269
+Steuart at Market,14,223
+Steuart at Market,15,305
+Steuart at Market,16,479
+Steuart at Market,17,585
+Steuart at Market,18,370
+Steuart at Market,19,145
+Steuart at Market,20,83
+Steuart at Market,21,67
+Steuart at Market,22,43
+Steuart at Market,23,29
+Temporary Transbay Terminal (Howard at Beale),00,5
+Temporary Transbay Terminal (Howard at Beale),01,3
+Temporary Transbay Terminal (Howard at Beale),02,1
+Temporary Transbay Terminal (Howard at Beale),03,2
+Temporary Transbay Terminal (Howard at Beale),05,10
+Temporary Transbay Terminal (Howard at Beale),06,120
+Temporary Transbay Terminal (Howard at Beale),07,599
+Temporary Transbay Terminal (Howard at Beale),08,1150
+Temporary Transbay Terminal (Howard at Beale),09,666
+Temporary Transbay Terminal (Howard at Beale),10,126
+Temporary Transbay Terminal (Howard at Beale),11,158
+Temporary Transbay Terminal (Howard at Beale),12,214
+Temporary Transbay Terminal (Howard at Beale),13,159
+Temporary Transbay Terminal (Howard at Beale),14,122
+Temporary Transbay Terminal (Howard at Beale),15,174
+Temporary Transbay Terminal (Howard at Beale),16,411
+Temporary Transbay Terminal (Howard at Beale),17,496
+Temporary Transbay Terminal (Howard at Beale),18,397
+Temporary Transbay Terminal (Howard at Beale),19,198
+Temporary Transbay Terminal (Howard at Beale),20,47
+Temporary Transbay Terminal (Howard at Beale),21,24
+Temporary Transbay Terminal (Howard at Beale),22,15
+Temporary Transbay Terminal (Howard at Beale),23,16
+Townsend at 7th,00,11
+Townsend at 7th,01,5
+Townsend at 7th,02,6
+Townsend at 7th,03,2
+Townsend at 7th,04,2
+Townsend at 7th,05,3
+Townsend at 7th,06,112
+Townsend at 7th,07,156
+Townsend at 7th,08,326
+Townsend at 7th,09,225
+Townsend at 7th,10,149
+Townsend at 7th,11,185
+Townsend at 7th,12,259
+Townsend at 7th,13,306
+Townsend at 7th,14,199
+Townsend at 7th,15,192
+Townsend at 7th,16,505
+Townsend at 7th,17,706
+Townsend at 7th,18,476
+Townsend at 7th,19,266
+Townsend at 7th,20,179
+Townsend at 7th,21,139
+Townsend at 7th,22,52
+Townsend at 7th,23,32
+University and Emerson,00,3
+University and Emerson,01,6
+University and Emerson,02,3
+University and Emerson,03,1
+University and Emerson,05,1
+University and Emerson,06,3
+University and Emerson,07,5
+University and Emerson,08,8
+University and Emerson,09,21
+University and Emerson,10,32
+University and Emerson,11,29
+University and Emerson,12,38
+University and Emerson,13,30
+University and Emerson,14,61
+University and Emerson,15,38
+University and Emerson,16,36
+University and Emerson,17,36
+University and Emerson,18,24
+University and Emerson,19,20
+University and Emerson,20,8
+University and Emerson,21,12
+University and Emerson,22,16
+University and Emerson,23,3
+Washington at Kearney,00,16
+Washington at Kearney,01,1
+Washington at Kearney,02,2
+Washington at Kearney,04,1
+Washington at Kearney,05,2
+Washington at Kearney,06,12
+Washington at Kearney,07,32
+Washington at Kearney,08,162
+Washington at Kearney,09,129
+Washington at Kearney,10,67
+Washington at Kearney,11,80
+Washington at Kearney,12,85
+Washington at Kearney,13,105
+Washington at Kearney,14,123
+Washington at Kearney,15,124
+Washington at Kearney,16,145
+Washington at Kearney,17,148
+Washington at Kearney,18,82
+Washington at Kearney,19,43
+Washington at Kearney,20,40
+Washington at Kearney,21,38
+Washington at Kearney,22,21
+Washington at Kearney,23,14
+Yerba Buena Center of the Arts (3rd @ Howard),00,12
+Yerba Buena Center of the Arts (3rd @ Howard),01,9
+Yerba Buena Center of the Arts (3rd @ Howard),02,6
+Yerba Buena Center of the Arts (3rd @ Howard),03,1
+Yerba Buena Center of the Arts (3rd @ Howard),05,9
+Yerba Buena Center of the Arts (3rd @ Howard),06,46
+Yerba Buena Center of the Arts (3rd @ Howard),07,42
+Yerba Buena Center of the Arts (3rd @ Howard),08,123
+Yerba Buena Center of the Arts (3rd @ Howard),09,130
+Yerba Buena Center of the Arts (3rd @ Howard),10,112
+Yerba Buena Center of the Arts (3rd @ Howard),11,89
+Yerba Buena Center of the Arts (3rd @ Howard),12,175
+Yerba Buena Center of the Arts (3rd @ Howard),13,180
+Yerba Buena Center of the Arts (3rd @ Howard),14,146
+Yerba Buena Center of the Arts (3rd @ Howard),15,177
+Yerba Buena Center of the Arts (3rd @ Howard),16,233
+Yerba Buena Center of the Arts (3rd @ Howard),17,447
+Yerba Buena Center of the Arts (3rd @ Howard),18,206
+Yerba Buena Center of the Arts (3rd @ Howard),19,117
+Yerba Buena Center of the Arts (3rd @ Howard),20,101
+Yerba Buena Center of the Arts (3rd @ Howard),21,58
+Yerba Buena Center of the Arts (3rd @ Howard),22,48
+Yerba Buena Center of the Arts (3rd @ Howard),23,20

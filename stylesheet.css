@@ -163,6 +163,28 @@ td, th {
 #hbar {
  cursor: default; 
 }
+/*--- map ---*/
+#map-here {
+    width: 800px;
+    height: 800px;
+    margin: 0;
+    padding: 0;
+}
+        
+.overlay, .overlay svg {
+  position: absolute;
+}
+ 
+.overlay svg {
+  width: 60px;
+  height: 20px;
+  padding-right: 100px;
+  font: 10px sans-serif;
+}
+
+.label {
+    fill: blue;
+        }
 /* ----- SVG ----- */
 .slice > path{
 	stroke-width:1px;
