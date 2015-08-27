@@ -215,6 +215,7 @@ svg {
 }
 path {
   fill: none;
+  clip-path: url(#clip);
 }
 .axis path,
 .axis line {
