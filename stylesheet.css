@@ -1,4 +1,4 @@
-@import url('http://fonts.googleapis.com/css?family=Source+Code+Pro|Roboto:100,400,700|Old+Standard+TT:400,700');
+/*@import url('http://fonts.googleapis.com/css?family=Source+Code+Pro|Roboto:100,400,700|Old+Standard+TT:400,700');*/
 
 
 /* ----- html ----- */
@@ -13,11 +13,11 @@ body {
     content: " "; /* 1 */
     display: table; /* 2 */
     clear: both;
-} 
+}
 .center {
   margin: auto;
 }
-.strike { 
+.strike {
   text-decoration: line-through;
 }
 hr {
@@ -32,7 +32,7 @@ header {
   font-weight: 700;
 }
 footer {
-  font-size: 10px; 
+  font-size: 10px;
   text-align: center;
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -64,7 +64,7 @@ input[type=radio] {
   -webkit-box-shadow: 0 20px 20px 4px #999999;
   box-shadow: 0 20px 20px 4px #999999;
   background-color: #fff;
-  font-size: 12pt; 
+  font-size: 12pt;
   font-family: 'Old Standard TT', serif;
 }
 .ILR {
@@ -90,7 +90,7 @@ input[type=radio] {
   text-align: center;
 }
 .analysis {
-  
+
 }
 .aside {
   font-size: 10pt;
@@ -146,22 +146,22 @@ td, th {
   color: blue;
 }
 #cityRadio {
- margin-left: 100px; 
+ margin-left: 100px;
 }
 #hbar {
- margin-left: 100px; 
+ margin-left: 100px;
 }
 #avgday {
-  margin-left: 60px; 
+  margin-left: 60px;
 }
 #commuter {
- margin-left: 160px; 
+ margin-left: 160px;
 }
 #commuteravg {
- margin-left: 129px; 
+ margin-left: 129px;
 }
 #hbar {
- cursor: default; 
+ cursor: default;
 }
 /*--- map ---*/
 #map-here {
@@ -170,11 +170,11 @@ td, th {
     margin: 0;
     padding: 0;
 }
-        
+
 .overlay, .overlay svg {
   position: absolute;
 }
- 
+
 .overlay svg {
   width: 60px;
   height: 20px;
@@ -189,7 +189,7 @@ td, th {
 .slice > path{
 	stroke-width:1px;
     stroke: #fff;
-} 
+}
 .slice:hover > path{
     stroke: #ff9c27 ;
     stroke-width: 2px;
@@ -200,11 +200,11 @@ td, th {
 .totalbar:hover {
   stroke: #ff9c27 ;
 }
-  
+
 text {
   fill: black;
-  
-}    
+
+}
 .title {
   font-size: 14pt;
 }
@@ -241,13 +241,13 @@ path.hour {
   fill: none;
   stroke-width: 2px;
   clip-path: url(#clip);
-  stroke-dasharray: 2,2;    
-}    
+  stroke-dasharray: 2,2;
+}
 .tempLine {
   fill: none;
   stroke-width: 2px;
   clip-path: url(#clip);
-}  
+}
 .bars {
   fill-opacity: 0.5;
   clip-path: url(#clip);
@@ -265,7 +265,7 @@ path.hour {
 }
 rect.bordered {
   stroke: #E6E6E6;
-  stroke-width: 1px;   
+  stroke-width: 1px;
 }
 text.mono {
   font-size: 6pt;
@@ -277,13 +277,13 @@ rect.highlight {
   stroke-width 0.5px;
 }
 text.text-hover {
-  fill: #ff9c27; 
+  fill: #ff9c27;
 }
 .bart>text {
   fill: #0072b9;
 }
 .caltrain>text {
-  fill: #e63737; 
+  fill: #e63737;
 }
 
 #tooltip {

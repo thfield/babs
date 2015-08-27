@@ -1,0 +1,139 @@
+station,user,00,01,02,03,04,05,06,07,08,09,10,11,12,13,14,15,16,17,18,19,20,21,22,23
+2nd at Folsom,Customer,2,1,,1,2,,5,8,12,31,29,54,44,34,28,26,32,32,33,18,13,9,9,4
+2nd at Folsom,Subscriber,7,,3,1,25,51,74,138,344,240,109,136,231,219,128,152,273,475,376,159,102,65,30,11
+2nd at South Park,Customer,,,,1,,6,,6,7,22,31,31,69,58,55,54,57,43,34,29,18,4,8,2
+2nd at South Park,Subscriber,7,9,,1,1,5,29,131,256,252,145,213,279,198,181,164,330,759,500,208,142,52,45,16
+2nd at Townsend,Customer,4,4,1,,1,,,5,11,33,39,65,112,122,91,87,85,62,51,32,21,22,22,12
+2nd at Townsend,Subscriber,6,1,4,,3,9,133,153,442,400,149,174,257,188,151,219,417,609,419,175,91,48,41,16
+5th at Howard,Customer,2,10,1,5,,2,7,17,23,38,48,42,67,64,43,36,49,39,48,15,19,19,5,7
+5th at Howard,Subscriber,14,2,2,2,,2,73,121,109,159,108,82,106,109,91,156,178,230,230,81,66,48,31,29
+Adobe on Almaden,Customer,,1,,,1,,,,1,3,4,14,8,3,5,5,9,3,3,4,1,,9,1
+Adobe on Almaden,Subscriber,1,,,,,,,,,2,2,14,18,14,16,19,72,56,27,9,3,4,2,1
+Arena Green / SAP Center,Customer,1,,,,,,,,1,4,6,7,5,4,11,7,13,6,1,4,,,10,2
+Arena Green / SAP Center,Subscriber,14,1,,,,,,3,2,2,2,9,30,17,16,10,24,19,17,12,8,9,30,32
+Beale at Market,Customer,5,3,1,1,1,,5,3,9,26,32,37,67,46,50,43,34,32,21,7,12,7,7,8
+Beale at Market,Subscriber,9,2,2,,,7,28,66,302,370,188,119,124,110,99,206,287,370,123,84,41,32,25,6
+Broadway at Main,Customer,,,,,,,,,,,1,5,2,,,1,4,,1,,,,,
+Broadway at Main,Subscriber,2,,,,,,,,,,1,7,2,3,8,,5,1,,,1,,,1
+Broadway St at Battery St,Customer,,,,,,,,,,,,,6,1,2,3,3,2,,,2,,,1
+Broadway St at Battery St,Subscriber,,,,,,7,,7,27,24,12,4,10,10,7,4,12,16,28,6,3,2,1,1
+California Ave Caltrain Station,Customer,1,1,,1,,,,3,2,8,11,17,17,18,22,14,7,12,7,12,2,2,2,2
+California Ave Caltrain Station,Subscriber,,,,,,,9,,3,5,12,5,10,5,4,10,26,18,14,7,3,2,,3
+Castro Street and El Camino Real,Customer,,,,,,,1,,1,3,3,1,,12,4,4,3,3,,,,,,
+Castro Street and El Camino Real,Subscriber,,,,,,1,1,11,1,2,1,2,2,1,,3,34,25,11,,2,,,
+Civic Center BART (7th at Market),Customer,3,5,4,1,3,1,2,13,36,53,48,76,70,62,61,45,43,51,28,10,21,8,9,15
+Civic Center BART (7th at Market),Subscriber,9,7,2,2,33,5,26,189,434,417,175,118,143,136,90,95,117,128,93,60,65,25,23,14
+Clay at Battery,Customer,4,2,7,6,,,4,14,23,41,53,43,60,45,38,60,42,45,27,28,7,6,2,6
+Clay at Battery,Subscriber,6,4,,2,1,5,88,36,82,93,74,83,138,123,106,119,199,286,211,81,41,33,30,15
+Commercial at Montgomery,Customer,1,3,1,4,,,1,6,5,15,22,31,37,44,35,38,27,50,18,9,5,6,4,
+Commercial at Montgomery,Subscriber,8,2,1,,1,3,10,28,244,92,88,131,174,258,198,165,261,418,202,85,35,28,27,13
+Cowper at University,Customer,,,,,,,,1,3,1,15,11,14,10,11,8,12,10,3,2,2,3,,
+Cowper at University,Subscriber,,,,,,,2,7,6,46,19,5,13,4,5,7,18,25,41,28,18,4,1,
+Davis at Jackson,Customer,2,2,4,,,1,1,3,10,16,17,21,26,35,36,53,47,35,23,15,7,1,4,1
+Davis at Jackson,Subscriber,6,3,1,,3,36,110,101,116,158,59,77,155,140,115,96,144,251,183,87,48,23,17,11
+Embarcadero at Bryant,Customer,13,,1,,,,3,8,19,31,56,84,98,93,83,97,89,54,46,33,16,21,10,9
+Embarcadero at Bryant,Subscriber,4,,1,1,14,95,50,221,520,319,203,117,158,130,113,98,123,123,135,99,42,37,16,14
+Embarcadero at Folsom,Customer,4,,4,,,,2,2,20,14,18,50,63,57,58,56,39,49,29,5,19,8,9,4
+Embarcadero at Folsom,Subscriber,3,3,1,,1,,11,33,123,92,74,121,155,158,102,123,504,503,193,100,63,40,13,5
+Embarcadero at Sansome,Customer,6,14,,11,1,,7,25,50,45,119,211,219,271,374,432,404,279,186,101,64,53,46,20
+Embarcadero at Sansome,Subscriber,19,7,5,2,2,10,156,159,279,185,105,133,199,205,163,245,409,454,372,231,126,72,41,28
+Embarcadero at Vallejo,Customer,7,5,8,4,,,1,2,23,31,42,71,114,151,155,174,155,124,60,26,24,25,10,19
+Embarcadero at Vallejo,Subscriber,2,2,1,,,2,2,9,29,25,27,73,104,84,74,190,197,368,206,82,34,20,19,4
+Evelyn Park and Ride,Customer,,,1,,,,,1,,1,5,2,5,4,8,10,10,,2,1,1,2,,
+Evelyn Park and Ride,Subscriber,,,,,,,39,45,19,7,3,5,2,5,3,6,13,1,13,2,1,1,,
+Franklin at Maple,Customer,,,,,,,,1,3,1,2,13,3,,3,5,2,2,2,2,2,2,,
+Franklin at Maple,Subscriber,,,1,,,1,,1,2,2,6,2,4,3,1,3,2,10,6,4,2,3,2,1
+Golden Gate at Polk,Customer,2,3,2,2,1,2,4,7,11,22,26,25,38,28,32,23,22,20,14,13,4,11,10,3
+Golden Gate at Polk,Subscriber,3,3,,1,,15,68,135,290,204,90,64,93,51,45,78,94,75,31,21,37,17,11,6
+Grant Avenue at Columbus Avenue,Customer,9,13,2,1,2,3,3,19,24,50,51,63,67,77,68,83,89,46,65,44,23,24,27,29
+Grant Avenue at Columbus Avenue,Subscriber,13,10,4,2,33,70,203,448,674,368,169,101,110,105,81,98,99,152,153,86,64,27,30,22
+Harry Bridges Plaza (Ferry Building),Customer,8,1,6,,2,2,11,28,90,97,137,264,332,321,388,276,205,134,135,73,52,42,25,24
+Harry Bridges Plaza (Ferry Building),Subscriber,6,2,2,1,,14,142,517,1017,362,146,217,307,344,198,182,376,294,225,129,100,67,28,14
+Howard at 2nd,Customer,5,3,6,2,,1,2,11,9,28,26,43,55,31,39,34,23,28,26,27,13,8,9,8
+Howard at 2nd,Subscriber,8,4,7,3,54,3,18,94,138,230,111,107,203,169,113,134,303,416,332,173,95,66,31,14
+Japantown,Customer,11,7,4,,,,,,,10,7,6,10,14,2,15,6,14,16,12,4,5,5,4
+Japantown,Subscriber,1,,,,1,,3,13,14,10,10,22,21,26,8,26,68,39,28,20,13,14,1,6
+Market at 10th,Customer,7,2,9,2,,2,,12,23,39,75,95,78,86,59,65,68,54,41,18,21,17,11,4
+Market at 10th,Subscriber,10,1,6,,1,2,19,133,205,284,137,141,161,132,102,92,246,352,315,142,98,78,46,20
+Market at 4th,Customer,10,10,4,1,1,2,5,20,46,75,113,113,147,104,135,137,122,86,81,52,45,38,24,12
+Market at 4th,Subscriber,20,4,4,1,,2,67,167,199,269,147,167,242,275,197,218,342,352,332,204,164,153,83,38
+Market at Sansome,Customer,8,8,2,,,,5,13,35,43,51,69,102,110,100,102,86,72,66,31,19,25,15,10
+Market at Sansome,Subscriber,26,14,3,,,6,24,128,438,586,277,207,287,270,213,238,518,653,384,288,209,75,69,37
+Mechanics Plaza (Market at Battery),Customer,5,4,12,3,,,2,8,15,27,44,48,65,60,65,70,62,50,35,13,20,10,13,9
+Mechanics Plaza (Market at Battery),Subscriber,6,2,2,,1,4,48,66,128,140,85,169,196,152,121,127,243,358,172,103,43,35,15,12
+Mezes Park,Customer,,,,,,,,,,2,,,,,,,,,,,,,,
+Mezes Park,Subscriber,,,,,,,,,1,,,,,,,,,,,,,,,
+MLK Library,Customer,3,4,2,,1,,,2,2,5,5,4,8,9,14,11,10,10,16,4,14,8,1,4
+MLK Library,Subscriber,6,,,,,,1,5,6,15,21,27,36,31,28,30,37,34,23,22,24,22,11,12
+Mountain View Caltrain Station,Customer,2,,,,,,2,1,2,8,17,15,28,13,17,23,19,16,13,6,2,1,4,2
+Mountain View Caltrain Station,Subscriber,,11,1,,,1,27,54,121,247,92,25,11,17,9,15,56,74,109,44,18,14,12,5
+Mountain View City Hall,Customer,,1,,,,,2,2,,7,6,5,6,7,11,15,11,3,4,3,4,2,2,
+Mountain View City Hall,Subscriber,,,,,1,11,12,37,36,12,14,6,13,11,11,20,89,116,78,38,19,9,6,
+Palo Alto Caltrain Station,Customer,,,2,,,,,1,4,9,10,14,10,8,7,6,3,7,8,4,4,2,,
+Palo Alto Caltrain Station,Subscriber,2,4,3,,,,2,12,67,79,15,9,19,7,8,15,12,36,20,9,5,4,4,
+Park at Olive,Customer,,3,1,,1,1,,,3,11,7,3,8,13,10,12,8,6,12,5,2,1,,
+Park at Olive,Subscriber,,,,1,,,,1,4,8,4,11,10,5,7,4,7,11,4,2,1,1,,1
+Paseo de San Antonio,Customer,,6,,,,,,2,,2,9,12,10,7,11,14,6,8,5,8,9,2,,2
+Paseo de San Antonio,Subscriber,2,1,,,,,3,139,33,12,22,27,34,52,41,40,29,56,45,45,24,18,3,6
+Post at Kearney,Customer,3,7,2,,9,2,8,7,10,20,39,47,73,64,45,41,48,41,38,22,14,8,4,4
+Post at Kearney,Subscriber,10,9,3,2,1,1,5,18,73,130,83,98,191,137,110,142,177,265,187,137,70,43,33,22
+Powell at Post (Union Square),Customer,19,9,9,2,,3,22,40,89,83,123,114,93,78,76,59,82,72,36,35,14,22,13,11
+Powell at Post (Union Square),Subscriber,10,8,9,1,1,18,37,167,206,189,148,108,83,101,68,100,104,77,79,59,45,44,37,21
+Powell Street BART,Customer,9,7,2,9,4,4,5,24,44,62,85,90,105,103,94,84,66,75,60,33,25,23,21,18
+Powell Street BART,Subscriber,19,17,10,1,7,4,10,60,229,373,191,146,206,206,128,134,145,287,206,112,101,77,62,53
+Redwood City Caltrain Station,Customer,1,,,,,2,,1,4,6,1,7,4,6,8,5,1,5,3,11,,5,2,
+Redwood City Caltrain Station,Subscriber,2,1,,,,,2,51,103,23,15,10,10,13,10,12,18,10,3,11,6,2,2,2
+Redwood City Medical Center,Customer,,,,,,,,,,,2,2,,,,2,2,2,1,,,,,
+Redwood City Medical Center,Subscriber,,,,,,,,1,6,,6,3,16,6,4,14,12,25,10,8,1,,,
+Redwood City Public Library,Customer,,,,,,,,,,,2,,1,4,3,,,2,1,,,,,2
+Redwood City Public Library,Subscriber,,,,,,,,,1,1,2,3,5,4,2,2,,3,3,1,2,,,
+Rengstorff Avenue / California Street,Customer,1,,1,,,,,3,3,9,5,9,12,9,9,12,8,11,9,1,1,,,
+Rengstorff Avenue / California Street,Subscriber,,,,,,,9,45,20,12,5,7,12,6,7,4,4,5,8,1,,,,
+San Antonio Caltrain Station,Customer,,,,1,,,,2,2,7,6,14,,5,4,6,2,5,8,2,2,2,3,5
+San Antonio Caltrain Station,Subscriber,,,,,,,,,20,11,9,6,7,5,7,4,5,13,29,24,8,8,3,3
+San Antonio Shopping Center,Customer,,,,,,,,,,,,2,3,3,2,1,5,1,3,,2,,,
+San Antonio Shopping Center,Subscriber,,,,,,,,,,20,2,2,3,1,1,9,28,17,1,2,,,,
+San Francisco Caltrain (Townsend at 4th),Customer,6,2,4,1,4,,7,57,101,61,66,95,83,61,70,51,68,84,51,35,19,13,13,5
+San Francisco Caltrain (Townsend at 4th),Subscriber,10,2,3,6,8,67,437,1579,1927,1112,402,224,172,156,130,163,238,755,674,440,146,113,75,42
+San Francisco Caltrain 2 (330 Townsend),Customer,1,,,1,,1,6,8,42,58,44,48,56,40,36,41,23,34,28,22,7,6,4,4
+San Francisco Caltrain 2 (330 Townsend),Subscriber,13,1,3,1,,2,46,221,945,734,356,188,166,145,111,123,235,268,331,298,146,71,43,19
+San Francisco City Hall,Customer,1,1,1,2,2,,1,2,8,16,26,33,45,45,59,36,34,21,8,8,4,5,2,4
+San Francisco City Hall,Subscriber,5,,1,,,1,8,30,90,93,50,66,87,58,64,75,102,50,35,22,18,17,13,8
+San Jose City Hall,Customer,7,4,,,1,5,3,2,2,5,1,4,2,4,9,11,6,8,7,6,3,3,2,3
+San Jose City Hall,Subscriber,2,1,,,,,,21,3,9,40,141,62,50,34,42,94,92,24,7,9,2,6,3
+San Jose Civic Center,Customer,2,9,1,1,,1,1,4,3,11,16,7,19,13,13,25,18,18,2,8,3,2,4,3
+San Jose Civic Center,Subscriber,,,1,,,1,3,2,12,5,15,12,16,14,9,11,12,12,13,3,8,5,8,
+San Jose Diridon Caltrain Station,Customer,7,2,1,,,2,2,6,19,12,17,12,13,16,17,23,8,12,16,18,10,4,,4
+San Jose Diridon Caltrain Station,Subscriber,12,20,,,,,38,214,376,159,131,42,32,38,20,11,25,179,167,126,47,35,51,28
+San Jose Government Center,Customer,,,,,,,,,1,,,,9,,1,,,,,,,,,
+San Jose Government Center,Subscriber,,,,,,,,,,1,1,1,1,,2,1,,2,1,2,,,,
+San Mateo County Center,Customer,,,,,,,,,,,1,,2,,,,2,,,,,,,
+San Mateo County Center,Subscriber,,,,,,,,1,1,2,14,7,29,10,3,10,12,4,1,1,1,,,
+San Pedro Square,Customer,6,6,4,,,,,1,,1,3,6,13,14,14,18,18,13,11,14,5,15,13,9
+San Pedro Square,Subscriber,5,2,,,,,3,7,8,9,23,18,47,44,23,18,115,103,22,20,20,19,20,5
+San Salvador at 1st,Customer,2,5,,2,1,7,1,3,4,2,7,6,5,10,2,5,3,6,3,8,4,7,2,2
+San Salvador at 1st,Subscriber,3,,,,4,11,8,21,103,16,16,27,98,20,19,17,18,25,24,13,21,19,11,6
+Santa Clara at Almaden,Customer,5,2,1,,1,,,1,5,5,1,4,1,7,9,5,12,8,10,6,2,1,3,5
+Santa Clara at Almaden,Subscriber,3,3,3,2,,90,7,20,53,39,41,19,24,37,29,26,141,130,55,12,6,3,7,11
+SJSU - San Salvador at 9th,Customer,2,,6,,,,7,,5,7,10,,3,3,5,6,11,9,8,6,,14,9,10
+SJSU - San Salvador at 9th,Subscriber,1,,,,,,33,40,19,45,18,14,24,17,24,22,26,30,16,10,17,8,3,1
+SJSU 4th at San Carlos,Customer,3,1,1,2,,,1,,2,1,2,8,13,9,1,4,9,13,7,2,6,2,3,1
+SJSU 4th at San Carlos,Subscriber,2,2,,,,2,,,1,7,12,27,28,29,15,11,16,27,28,19,18,39,12,3
+South Van Ness at Market,Customer,13,4,4,2,3,1,1,9,26,30,29,48,63,46,48,40,46,30,14,19,11,15,7,6
+South Van Ness at Market,Subscriber,12,4,5,2,4,4,42,247,557,303,153,182,207,110,115,106,305,283,115,50,87,75,26,12
+Spear at Folsom,Customer,8,3,,,,,2,4,16,19,34,38,57,44,32,35,30,30,20,16,9,12,5,2
+Spear at Folsom,Subscriber,,2,3,,2,50,127,197,245,250,216,163,179,185,143,125,166,396,296,133,74,32,12,11
+St James Park,Customer,1,,,,,,,,1,2,3,5,5,2,8,7,5,1,3,5,3,2,1,2
+St James Park,Subscriber,,,,,,3,13,27,5,12,11,9,26,17,15,14,62,43,20,13,10,7,3,
+Steuart at Market,Customer,16,5,1,,2,,9,13,62,71,68,93,81,89,106,114,84,64,50,30,15,16,7,11
+Steuart at Market,Subscriber,6,3,1,,,,97,260,536,544,136,126,185,180,117,191,395,521,320,115,68,51,36,18
+Temporary Transbay Terminal (Howard at Beale),Customer,3,1,1,1,,1,1,16,38,27,22,39,42,33,26,29,26,28,24,44,8,2,5,10
+Temporary Transbay Terminal (Howard at Beale),Subscriber,2,2,,1,,9,119,583,1112,639,104,119,172,126,96,145,385,468,373,154,39,22,10,6
+Townsend at 7th,Customer,,1,4,,,2,1,6,14,16,24,30,62,59,51,36,75,47,35,23,15,10,4,3
+Townsend at 7th,Subscriber,11,4,2,2,2,1,111,150,312,209,125,155,197,247,148,156,430,659,441,243,164,129,48,29
+University and Emerson,Customer,3,4,3,,,1,3,4,7,11,26,23,26,22,57,31,25,28,16,13,7,6,10,2
+University and Emerson,Subscriber,,2,,1,,,,1,1,10,6,6,12,8,4,7,11,8,8,7,1,6,6,1
+Washington at Kearney,Customer,10,1,2,,1,2,3,22,13,25,26,47,41,44,61,71,61,41,26,10,20,15,9,10
+Washington at Kearney,Subscriber,6,,,,,,9,10,149,104,41,33,44,61,62,53,84,107,56,33,20,23,12,4
+Yerba Buena Center of the Arts (3rd @ Howard),Customer,2,3,2,,,2,3,9,19,21,48,40,60,59,53,69,58,68,35,20,17,19,17,4
+Yerba Buena Center of the Arts (3rd @ Howard),Subscriber,10,6,4,1,,7,43,33,104,109,64,49,115,121,93,108,175,379,171,97,84,39,31,16
