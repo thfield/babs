@@ -5,6 +5,16 @@
     <meta charset="utf-8">
     <title>BABS Data Challenge</title>
     <link rel="stylesheet" href="stylesheet.css">
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-82812853-4', 'auto');
+      ga('send', 'pageview');
+
+    </script>
 </head>
 <body>
   <script src="js/d3.v3.js" charset="utf-8"></script>
@@ -14,29 +24,29 @@
     <h1>Bay Area Bike Share Data Challenge</h1>
     <a href="explore.html">Explore</a> <a href="index.html">Home</a>
   </header>
-  
+
   <div class="wrapper">
-    
+
     <h2 class="analysis">What is the Bay Area Bike Share?</h2>
     <p class="analysis">The <a href="http://bayareabikeshare.com/">Bay Area Bike Share</a> system allows users to rent bicycles for short journeys between stations throughout the city.  Users can be annual members or short term (1 or 3 days).  The system is completely automated for users. </p>
     <p class="analysis">There are <strong>69</strong> stations across <strong>5</strong> cities in the Bike Share system, with an average of <strong>17</strong> docks per station.</p>
     <div id="pies" class="chart"></div>
     <p class="analysis">About <strong>50%</strong> of the stations and docks are located in San Francisco, but it makes up <strong>90%</strong> of the system use.</p>
     <p class="analysis">The data we analyze here came from rides between August 29, 2013 and February 28, 2014.</p>
-    
+
     <p class="fact">In those 185 days there were <strong>144,015 rides</strong>, averaging about <strong>20 minutes</strong> per trip.</p>
     <p class="fact">Total riding time: <br/><strong>49,241½ hours</strong>, or <strong>5 years, 32 weeks, 1 day, 12 hours, 27 minutes, and 4 seconds</strong>.
 </p>
-    
+
     <hr class="clear"/>
-    
+
     <h2 class="analysis">How much is the Bay Area Bike Share used?</h2>
     <input type="checkbox" id="weekendcheck">Highlight Weekends</input>
     <div id="row2" class="chart"></div>
     <p class="analysis">This chart makes it pretty clear that ridership drops on weekends. Check the box to highlight Saturdays and Sundays.</p>
-    <p class="fact"><strong>917 rides</strong> are made on average each weekday</p> 
-    <p class="fact"><strong>442 rides</strong> are made on average each weekend</p> 
-  
+    <p class="fact"><strong>917 rides</strong> are made on average each weekday</p>
+    <p class="fact"><strong>442 rides</strong> are made on average each weekend</p>
+
   <table class="fact tabCenter">
     <thead> <th>Busiest day</th> <th>Calmest day</th> </thead>
     <tbody>
@@ -44,40 +54,40 @@
       <tr> <td>1,264 rides</td> <td>81 rides</td> </tr>
     </tbody>
   </table>
-  
+
   <hr class="clear"/>
-  
+
     <h2 class="analysis">Who uses the Bay Area Bike Share?</h2>
     <div id="row3" class="chart ILL"></div>
-    <p class="analysis">Almost <strong>80%</strong> of riders have an annual subscription.  The remaining <strong>20%</strong> of riders were customers who purchased a 24-hour or 3-day pass.</p> 
-  
+    <p class="analysis">Almost <strong>80%</strong> of riders have an annual subscription.  The remaining <strong>20%</strong> of riders were customers who purchased a 24-hour or 3-day pass.</p>
+
     <hr class="clear"/>
-  
+
     <h2 class="analysis">When is Bay Area Bike Share used?</h2>
     <p class="analysis clear">We saw already that users are likely to be annual subscribers, and system use drops off on the weekends.  Let's group the rides by weekday and see how subscribers' use compares to customers':</p>
   <div id="weekday" class="chart ILR"></div>
   <p class="analysis">Weekday riders are overwhelmingly subscribers, and ridership among subscribers falls on weekends so that rides by customers just manage to outnumber them.</p>
-    
+
     <p class="analysis clear">And now we'll group rides by time of day:</p>
     <div id="hourly" class="chart ILL"></div>
-    
+
     <p class="analysis">Among subscribers we see spikes in use at 8am and 5pm with another small bump at 12 noon.  These users must be riding a bike to get to work, to go to lunch, and to head home.  </p>
       <p class="analysis">Customers hourly usage seems to fall along a bell-shaped distribution peaking at two in the afternoon.  There doesn't seem to be a lunchtime rise among customer use.  These users must be riding around throughout the daytime at their leisure.</p>
     <p class="analysis">From these usage behaviors, it would be fair to characterize the two groups of subscribers and customers as <strong>commuters</strong> and <strong>tourists</strong>, respectively.</p>
-  
-  
-    
+
+
+
     <p class="analysis">The Bike Share system is intended to be used for short rides: trips under a half hour do not incur any additional charges.  Do riders use the system in the intended way?</p>
     <div id="duration" class="chart ILR"></div>
     <p class="analysis">Yes they do.  The chart on the right shows that the most common ride length is <strong>5 to 10 minutes</strong>.  Subscribers are clearly savvy to the price structuring.  Very few rides longer than a half hour are taken by subscribers.  For the most part, customers are savvy as well.  Their trips last a little longer on average, but mostly less than 30 minutes.  There's a bump in rides that last longer than an hour, let's examine those a little closer: </p>
     <div id="durationH" class="chart"></div>
   <p class="aside ILR">By the current pricing structure, a customer purchasing a 24 hour pass and taking a ride that lasts 2 hours and 59 minutes would pay in total $41.  A ride of 2 hours and 29 minutes would only be $34. There are several bike rental companies in San Francisco which offer 3-hour rentals for around $32.  Customers taking trips less than three hours likely did not understand the bike share system and incurred unwanted overtime fees, or they decided the convenience of the automated system was worth the premium paid over other rental offerings.</p>
     <p class="analysis">Rides lasting longer than an hour are most commonly 1 to 2 hours long, and almost always taken by customers.  This could be due to confusion over the nature of the "24-hour pass" or one of many other factors including theft, forgetfulness, or getting lost.  </p>
-      
+
   <hr class="clear"/>
   <h2 class="analysis">Where do people ride Bike Share?</h2>
   <p class="analysis">We saw earlier that 90% of Bike Share rides took place in San Francisco.  Let's examine the average numbers for each city on a day-to-day basis: </p>
-  
+
   <table id="avgday" class="tabCenter"><caption>Average Rides per Day</caption>
     <thead> <th></th> <th>System Wide</th> <th>San Jose</th> <th>Redwood City</th> <th>Mountain View</th> <th>Palo Alto</th> <th>San Francisco</th></thead>
     <tbody>
@@ -86,10 +96,10 @@
       <tr> <td>Customer</td>   <td>164</td> <td> 9</td> <td>1</td> <td> 3</td> <td>4</td> <td>147</td></tr>
     </tbody>
   </table>
-  
+
   <p class="analysis">Hmm. Redwood City and Palo Alto don't see much daily use, but not much interesting here.  <span class="strike">Let's look at a chart.</span>  Let's look at an interactive chart.</p>
   <p class="analysis">Here we see total daily rides for each category of user plotted across the entire timespan, similar to the chart at the top of the page. Use the radio buttons on top to examine different cities and the checkboxes below to highlight days with a factor that might have influenced riders.</p>
-  
+
    <div id="cityRadio">
         <input type="radio" name="city" value="all" checked="true">All</input>
         <input type="radio" name="city" value="sj">San Jose</input>
@@ -121,18 +131,18 @@
         <li><input type="checkbox" id="bartCB">BART Strike</input></li>
         <li><input type="checkbox" id="govCB">Government Shutdown</input></li>
       </ul>
-  
+
   <span class="aside">Explore these factors closer on <a href="explore.html">the next page &rarr;</a></span>
 
 <p class="analysis">If our generalization of users as commuters and tourists were true, we would predict use among subscribers to drop off when commuters don't go to work and increase when tourists are in town.  With the overlays we can see this correlation holds true. Rides by subscribers in all cities decreased on weekends, over Thanksgiving, and between Christmas and New Years. Rides by customers increased noticeably on weekends, holidays, and during the America's Cup finals.</p>
 <p class="analysis">Rain seems to be a large deterrent to bike use; on rainy days system use falls almost as predictably as on weekends or holidays.  Temperature, however does not seem to have a major influence on riders.  Bay area temperatures being notoriously moderate, the lack of correlation is not surprising.  </p>
 <p class="analysis">We can't draw any conclusions about the influence of home games by the 49ers, Giants, or Sharks.  Heading to a Giants game would seem to be an ideal use of the Bike Share, but during this period the only Giants home games overlapped with Americas Cup races.  There are a few dates where a Sharks game correlated with a slight rise above average usage, but such deviation from average is normal throughout this time period.</p>
 <p class="analysis">Interestingly, both the federal government shutdown of October and the two BART worker strikes of October and December did not seem to have a major influence.  Rider numbers during the strikes remained similar to numbers from the weeks before and after the strikes.  This poses an interesting question,  do BART commuters use the Bike Share System?  To begin looking for an answer, let's look at the numbers for rides to and from individual stations.</p>
-  
+
 <table class="tabRight ILL">
     <caption>Most Popular Starting Stations</caption>
-    <thead> 
-      <th>Station</th> <th>Rides</th> 
+    <thead>
+      <th>Station</th> <th>Rides</th>
     </thead>
     <tbody>
       <tr> <td>San Francisco Caltrain (Townsend at 4th)</td> <td>9,838</td> </tr>
@@ -150,8 +160,8 @@
 
   <table class="tabRight ILR">
     <caption>Most Popular Destinations</caption>
-    <thead> 
-      <th>Station</th> <th>Rides</th> 
+    <thead>
+      <th>Station</th> <th>Rides</th>
     </thead>
     <tbody>
       <tr> <td>San Francisco Caltrain (Townsend at 4th)</td> <td>11,637</td> </tr>
@@ -170,8 +180,8 @@
 
 <table class="ILR tabCenter">
       <caption>San Francisco Caltrain <br/>(Townsend at 4th)</caption>
-      <thead> 
-        <th>Most popular starting point</th> <th>Most popular destination</th> 
+      <thead>
+        <th>Most popular starting point</th> <th>Most popular destination</th>
       </thead>
       <tbody>
         <tr> <td>9,838 rides</td> <td>11,637 rides</td> </tr>
@@ -182,8 +192,8 @@
 
 <p class="analysis">The Bike Share stations on the top ten lists within walking distance of a BART stop are Market at Sansome, Market at 4th, and Steuart at Market.  Keep in mind that all these stops are also within close proximity to many points of interest in downtown San Francisco. </p>
 
-<p class="analysis">Of course, the rest of the stations serving BART commuters could all be just outside the top ten.  Let's take a look at the list of rides for all stations. BART stations are identified with blue text, Caltrain stations with red text.</p>  
-    
+<p class="analysis">Of course, the rest of the stations serving BART commuters could all be just outside the top ten.  Let's take a look at the list of rides for all stations. BART stations are identified with blue text, Caltrain stations with red text.</p>
+
 <p>Sort by:</p>
     <div id="sort" class="center">
         <input type="radio" name="stationSort" value="start" checked="true">Starting station</input>
@@ -192,7 +202,7 @@
 
   <div id="hbar"></div>
   <p class="analysis">While the BART stations are indeed all among the busiest stations, they are all in San Francisco, and their numbers don't set them apart from any other station within San Francisco.  These stations are centrally located to a number of attractions in downtown San Francisco, so we would expect them to be highly trafficked.  Bike Share Riders docking at these stations are not necessarily transferring to or from BART.  If there was a large contingency of BART commuters who used the Bike Share, we would expect to see rides to and from BART stations in numbers setting them above other destinations. With what we've seen here, it seems safe to conclude that BART commuters do not make up a large proportion of Bike Share riders.</p>
-      
+
       <p class="analysis">Is there any more evidence to back up this assumption? Let's take a look at the rides at stations serving different forms of commuting to and from San Francisco:</p>
 
 <table id="commuter" class="tabCenter"><caption>Total rides at stations serving:</caption>
@@ -217,13 +227,13 @@
 
 
  <hr/>
-  
+
 <p class="analysis">Each trip within Bike Share is recorded by starting station and ending station, so in addition to examining the popularity of stations, we can examine the popularity of individual routes.  In the heatmap below, starting stations are listed in rows and the ending stations in columns.  The total number of rides from least to most along each route is indicated by the cell color, lightest to darkest. </p>
 
       <div id="tooltip" class="hidden">
         <p><span id="value"></p>
       </div>
-      
+
       <div id="heatRadio">
         <input type="radio" name="heat" value="all" checked="true">All</input>
         <input type="radio" name="heat" value="sj">San Jose</input>
@@ -243,11 +253,11 @@
 <p class="aside ILL">Two popular routes which seem to make up a round trip are Townsend at 7th to SF Caltrain 2 and vice-versa.  Near to Townsend at 7th is an Expo center and at handful of influential tech companies including Adobe, Heroku, Citrix, Advent, and Zynga.  This could reflect a corporate membership program popular among commuting employees, a conference well-attended by peninsula-dwellers, or more simply, a dearth of other forms of transportation to the area. </p>
 
 <p class="aside ILL"> The most ridden route, Harry Bridges Plaza (Ferry Building) to Embarcadero at Sansome, does not have a return route with as great numbers, indicating that riders tended to ride to Embarcadero at Sansome and continue their journey elsewhere rather than return to the Ferry Building.  Embarcadero at Sansome is the northernmost station along the Embarcadero, closest to tourism-heavy Pier 39 and Fisherman's Wharf.  The bike path heading north along the Embarcadero is also much more bicycle-friendly than the southern route. </p>
- 
+
 <table class="tabRight center ">
-   
+
     <caption>Most Traveled Routes</caption>
-    <thead> 
+    <thead>
       <th>From</th> <th>To</th> <th>Rides</th>
     </thead>
     <tbody>
@@ -271,14 +281,14 @@
     <p class="analysis">One recommendation that can be made is for station growth into SOMA.  Users are already shown to be commuters heading to work, and SOMA is one area of San Francisco with a high density of businesses, close proximity to the existing stations, and currently lacking any Bike Share stations.</p>
 
 
-  
+
   </div>
-  
+
   <footer>
     I did not perform any actual statistical tests; with figuring out D3, I didn't have time to re-learn T-tests and whatnot.  I would maybe be interested in doing that to see if my conjectures have any basis in math. <br />
     Made with <a href="http://www.d3js.org">D3</a> and <a href="http://www.openoffice.org/">Open Office</a>.  Data from the <a href="http://bayareabikeshare.com/datachallenge">Bay Area Bike Share Data Challenge</a>.
   </footer>
-  
+
   <script src="js/main.js"></script>
   <script src="js/indepth.js"></script>
 </body>

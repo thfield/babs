@@ -182,7 +182,7 @@ td, th {
   font: 10px sans-serif;
 }
 
-.label {
+.maplabel {
     fill: blue;
         }
 /* ----- SVG ----- */
@@ -215,7 +215,6 @@ svg {
 }
 path {
   fill: none;
-  clip-path: url(#clip);
 }
 .axis path,
 .axis line {
